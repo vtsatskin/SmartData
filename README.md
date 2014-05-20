@@ -12,6 +12,10 @@ consumed by their device and the applications on it.
 
 *A breakdown of the various user stories that will help us understand our users. Contains assumptions and possible questions that may validate these stories*
 
+**[Concepts](concepts.md)**
+
+*Currently a dumping ground for various concept ideas*
+
 ### Existing Solutions
 
 **[Opera Max](existing-solutions/opera-max.md)**
