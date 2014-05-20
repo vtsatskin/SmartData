@@ -28,3 +28,8 @@ similar to Opera Max.*
 
 *An operator-intergrated solution which allows internet services to be packaged
 based on time and or content instead of per MB.*
+
+**[Nokia Asha](existing-solutions/nokia-asha.md)**
+
+*A low-end smartphone OS designed for similar markets as Firefox OS. Has a
+proprietary web browser with compression technologies similar to Opera.*
