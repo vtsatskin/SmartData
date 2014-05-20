@@ -33,3 +33,9 @@ based on time and or content instead of per MB.*
 
 *A low-end smartphone OS designed for similar markets as Firefox OS. Has a
 proprietary web browser with compression technologies similar to Opera.*
+
+**[BlackBerry DataSmart](existing-solutions/backberry-datasmart.md)**
+
+*DataSmart is a compression technology which proxies requests made by BlackBerry
+devices through a server in order to save on data costs. Does NOT support video
+compression*
