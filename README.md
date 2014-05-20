@@ -19,3 +19,7 @@ consumed by their device and the applications on it.
 *An android application to help monitor, record and save data on a mobile device
 by using Opera's compression technologies. Supports video compression.*
 
+**[Opera for Android](existing-solutions/opera-for-android.md)**
+
+*An android web browser which also includes data compression technologies
+similar to Opera Max.*
