@@ -43,3 +43,10 @@ proprietary web browser with compression technologies similar to Opera.*
 *DataSmart is a compression technology which proxies requests made by BlackBerry
 devices through a server in order to save on data costs. Does NOT support video
 compression*
+
+### Related Resources
+
+**[Settings Drawer Spec](https://mozilla.app.box.com/files/0/f/1784123672)**
+
+*The Firefox OS 2.0 Settings Drawer Spec. Will be useful to follow this design
+language when mockups are made for this project.*
