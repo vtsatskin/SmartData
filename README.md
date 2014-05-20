@@ -23,3 +23,8 @@ by using Opera's compression technologies. Supports video compression.*
 
 *An android web browser which also includes data compression technologies
 similar to Opera Max.*
+
+**[Opera Web Pass](existing-solutions/opera-web-pass.md)**
+
+*An operator-intergrated solution which allows internet services to be packaged
+based on time and or content instead of per MB.*
