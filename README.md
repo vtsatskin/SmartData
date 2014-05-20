@@ -11,3 +11,11 @@ consumed by their device and the applications on it.
 **[User Stories](user.stories.md)**
 
 *A breakdown of the various user stories that will help us understand our users. Contains assumptions and possible questions that may validate these stories*
+
+### Existing Solutions
+
+**[Opera Max](existing-solutions/opera-max.md)**
+
+*An android application to help monitor, record and save data on a mobile device
+by using Opera's compression technologies. Supports video compression.*
+
