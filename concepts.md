@@ -2,7 +2,7 @@
 
 These are concept ideas for smart data sharing
 
-## Having a more understandable metal model of data
+## Having a more understandable mental model of data
 
 Apple made communicating to users how many songs their iPods could hold not by
 talking about their devices in terms of the bytes they could hold, instead
