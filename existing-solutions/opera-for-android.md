@@ -21,9 +21,11 @@ to its architecture.
 ### Examples
 
 ![](opera-for-android/off-road-disabled.png)
+
 *Off-road disabled (normal browsing) for [valentin.tsatsk.in][vt]*
 
 ![](opera-for-android/off-road-enabled.png)
+
 *Off-road enabled for [valentin.tsatsk.in][vt]*
 
 [vt]:http://valentin.tsatsk.in
@@ -31,7 +33,9 @@ to its architecture.
 ### Other
 
 ![](opera-for-android/off-road-savings.png)
+
 *Off-road savings display*
 
 ![](opera-for-android/off-road-settings.png)
+
 *Off-road image compression settings*
