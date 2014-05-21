@@ -1,0 +1,26 @@
+{
+  "name": "Moz-Doc",
+  "version": "0.0.1",
+  "devDependencies": {
+    "wintersmith": "^2.0.10",
+    "wintersmith-livereload": "^0.1.1",
+    "wintersmith-node-sass": "^0.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "description": "A quick and easy way to generate beautiful docs from markdown.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darrinhenein/mozilla-docs.git"
+  },
+  "author": "Darrin Henein <darrinhenein@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darrinhenein/mozilla-docs/issues"
+  },
+  "homepage": "https://github.com/darrinhenein/mozilla-docs"
+}

@@ -1,0 +1,9 @@
+{
+  "locals": {
+    "title": "A Mozilla Design Document"
+  },
+  "plugins": [
+    "wintersmith-livereload",
+    "wintersmith-node-sass"
+  ]
+}
