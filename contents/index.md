@@ -330,3 +330,12 @@ Referring to data consumption in terms of pages, apps, and other usage metrics
 is probably more understandable than bytes. Even if it's just an estimate, it's
 probably more useful, especially for people who have never had to deal with
 computer metrics before.
+
+## Related Resources
+
+**Box access is required*
+
+**[Settings Drawer Spec](https://mozilla.app.box.com/files/0/f/1784123672)***
+
+*The Firefox OS 2.0 Settings Drawer Spec. Will be useful to follow this design
+language when mockups are made for this project.*
