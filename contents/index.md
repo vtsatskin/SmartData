@@ -349,6 +349,31 @@ article also describes WiFi sense.
 [2]:http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-wi-fi-sense-to-get-connected
 [faq]:http://www.windowsphone.com/en-us/how-to/wp8/connectivity/wi-fi-sense-faq
 
+### Onavo for Android
+
+A beautiful data monitor.
+
+Makes use of interesting data metrics on application specific view:
+* Hours used in current cycle
+* Average minutes of usage per day
+* Average MB of usage per minute
+* Differentiating foreground and background
+
+![](images/existing-resources/onavo-for-android/overview.png)
+
+*Landing page overview*
+
+![](images/existing-resources/onavo-for-android/daily-details.png)
+
+*Detail view (daily)*
+
+![](images/existing-resources/onavo-for-android/weekly-details.png)
+
+*Detail view (weekly)*
+
+![](images/existing-resources/onavo-for-android/app-details.png)
+
+*Application specific details (Facebook Messenger)*
 
 
 ## Concepts
