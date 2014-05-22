@@ -349,7 +349,11 @@ article also describes WiFi sense.
 [2]:http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-wi-fi-sense-to-get-connected
 [faq]:http://www.windowsphone.com/en-us/how-to/wp8/connectivity/wi-fi-sense-faq
 
-### Onavo for Android
+### Onavo
+
+### Onavo Count for Android
+
+[Google Play Store page](https://play.google.com/store/apps/details?id=com.onavo.android.onavoid)
 
 A beautiful data monitor.
 
@@ -375,6 +379,27 @@ Makes use of interesting data metrics on application specific view:
 
 *Application specific details (Facebook Messenger)*
 
+### Onavo Extend
+
+[Google Play Store page](https://play.google.com/store/apps/details?id=com.onavo.android.onavoics)
+
+Saves data by routing traffic to Onavo servers and using compression technology.
+Caches images locally to prevent loading the same image twice. [1] This app is
+very similar to Opera Max in it's value proposition. However, unlike Opera Max,
+Onavo Extend does not attempt to report usage, only savings.
+
+Has an interesting way of quantifying data saved by relating it to how many more
+emails and videos the user can send on the current cycle.
+
+![](images/existing-resources/onavo-extend-android/report.png)
+
+*Savings display with breakdown per app*
+
+![](images/existing-resources/onavo-extend-android/savings-quantified.png)
+
+*Quantifying data saved with number of extra emails and videos user can consume*
+
+[1]:http://www.onavo.com/apps/android_extend
 
 ## Concepts
 
