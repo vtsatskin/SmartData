@@ -46,7 +46,8 @@ problem having to "juggle phones", "juggle SIMs", and normal phone usage?
 
 #### Sofia
 
-Source: FFOS_OfflineConcepts3f_09_merged.pdf
+*Gathered from [FFOS_OfflineConcepts3f_09_merged.pdf][offlineConcepts2014]*
+[offlineConcepts2014]:https://mozilla.box.com/s/ak3iva799ppavdxgcl63
 
 ##### Persona
 
@@ -67,6 +68,8 @@ See [sofia.user.story.pdf](resources/sofia.user.story.pdf).
 ### Existing User Stories
 
 #### From Offline Concepts (Jan 2013)
+*Gathered from [offline_concepts_jan2013.pdf][offlineConcepts2013]*
+[offlineConcepts2013]:https://mozilla.box.com/s/ojjqc2tgsia6sdxqmvt9
 
 Note: these do no solely focus on data consumption but also includes SMS+Voice
 
