@@ -177,7 +177,7 @@ applications. This can give users insight into when and how much data their
 applications are using. In addition, savings are displayed at the top of the app
 and in the usage bar of each app in green.
 
-![](opera-max/some.data.png)
+![](images/existing-resources/opera-max/some.data.png)
 
 All application usage timeline, *Opera Max*
 
