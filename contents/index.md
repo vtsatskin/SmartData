@@ -65,9 +65,8 @@ learned.
 
 See [sofia.user.story.pdf](resources/sofia.user.story.pdf).
 
-### Existing User Stories
+### Existing User Stories (Jan 2013)
 
-#### From Offline Concepts (Jan 2013)
 *Gathered from [offline_concepts_jan2013.pdf][offlineConcepts2013]*
 [offlineConcepts2013]:https://mozilla.box.com/s/ojjqc2tgsia6sdxqmvt9
 
@@ -112,7 +111,7 @@ connection.
   - Assumption: users want apps
   - What if apps can be shared over WiFi direct?
 
-##### Questions to validate assumptions
+#### Questions to validate assumptions
 
 **Assumption:** The networks our users use do not offer unlimited data plans.
 
