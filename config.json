@@ -1,6 +1,6 @@
 {
   "locals": {
-    "title": "A Mozilla Design Document"
+    "title": "Smart Data Consumption"
   },
   "plugins": [
     "wintersmith-livereload",
