@@ -434,6 +434,16 @@ usage. It is hypothesized that positive reinforcement of staying under the limit
 may form habits for users to stay under those limits. Network operators'
 opinions of this type of a feature will need to be considered.
 
+### Forecasting predicted data usage
+
+Analyze the user's historical usage trends for the cycle and attempt to build a
+prediction model of how much data the user will use in the month. We can display
+the predicted data usage for the month to the user. In addition, a warning can
+be given to warn the user that they are consuming too quickly.
+
+This idea was found in [My Data Manager][mdm].
+[mdm]:https://play.google.com/store/apps/details?id=com.mobidia.android.mdm
+
 ## Related Resources
 
 **Box access is required*
