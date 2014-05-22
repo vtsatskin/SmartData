@@ -70,7 +70,8 @@ See [sofia.user.story.pdf](resources/sofia.user.story.pdf).
 *Gathered from [offline_concepts_jan2013.pdf][offlineConcepts2013]*
 [offlineConcepts2013]:https://mozilla.box.com/s/ojjqc2tgsia6sdxqmvt9
 
-Note: these do no solely focus on data consumption but also includes SMS+Voice
+Note: these do not solely focus on data consumption but also includes SMS and
+Voice usage.
 
 - As a cost conscious phone user, I want to know the amount of SMS/MMS messages
 I’ve sent/received in a billing period, so that I can avoid extra charges.
