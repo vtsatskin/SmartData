@@ -331,6 +331,17 @@ is probably more understandable than bytes. Even if it's just an estimate, it's
 probably more useful, especially for people who have never had to deal with
 computer metrics before.
 
+The following metrics could be based on the user's historical average size of
+content for that type:
+
+* Pages loaded
+* Tweets
+* Minutes of video
+  * Could be based off of current bitrate of active video as well.
+* Site specific pages (e.g. Wikipedia article, Facebook profile)
+* Minutes of songs
+* Number of songs
+
 ## Related Resources
 
 **Box access is required*
