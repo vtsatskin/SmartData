@@ -342,6 +342,13 @@ content for that type:
 * Minutes of songs
 * Number of songs
 
+### Positive reinforcement for saving data
+
+Users could be rewarded for staying within their daily or monthly goals for data
+usage. It is hypothesized that positive reinforcement of staying under the limit
+may form habits for users to stay under those limits. Network operators'
+opinions of this type of a feature will need to be considered.
+
 ## Related Resources
 
 **Box access is required*
