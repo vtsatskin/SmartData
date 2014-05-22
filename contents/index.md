@@ -318,6 +318,38 @@ service plans, faster application operation and increased battery life. [1], [2]
 [1]:http://blogs.blackberry.com/2011/01/blackberry-datasmart/
 [2]:http://rimblogs.files.wordpress.com/2011/01/2010_12_smartphone_efficiency.pdf
 
+### Windows Phone
+
+#### Data Sense
+
+Can hook into operators to understand plan info so that manual configuration is
+not required. Has an option to restrict background data usage when near limits
+or always. [1]
+
+Supports compression of pictures, blocking advertisements, and selective loading
+of portions of websites to save data. [1]
+
+A good rundown with pictures can be found in the Windows Phone Central article,
+["All you need to know about Data Sense on Windows Phone 8.1"][wpArticle].
+
+[1]:http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-data-sense-to-manage-data-usage
+[wpArticle]:http://www.wpcentral.com/data-sense-windows-phone-81
+
+#### WiFi Sense
+
+> Wi-Fi Sense automatically connects you to nearby Wi-Fi networks, helping you
+save your cellular data for when you really need it and giving you more Internet
+connectivity options. Wi-Fi Sense can do a lot of things for you to get you
+connected to the Internet using Wi-Fi, so you don't have to do them on your own.
+[2]
+
+There is also an [FAQ][faq] available. The aforementioned Windows Phone Central
+article also describes WiFi sense.
+
+[2]:http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-wi-fi-sense-to-get-connected
+[faq]:http://www.windowsphone.com/en-us/how-to/wp8/connectivity/wi-fi-sense-faq
+
+
 
 ## Concepts
 
