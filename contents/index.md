@@ -157,6 +157,91 @@ apps and how much data background apps use. Do we have any data on this?
 - Over what kind of a connection do you download apps?
 - Are there any situations where you would not download an app over WiFi?
 
+### Revised User Stories (2014) DRAFT
+
+*This section is in draft form and will probably be revised and reorganized,
+especially the priority groupings*
+
+The following are user stories for the 2014 Smart Data Consumption refresh.
+
+All of the these user stories need to be assessed from a customer segmentation
+perspective to see if the number of people who fall into these user stories are
+worth investing time into.
+
+#### Highest Priority
+
+These are determined by what bring us up to par with other solutions. These are
+intended to be user stories which should be "most bang for the buck" (i.e. not a
+lot of engineering time should need to be invested).
+
+##### Data Usage
+
+* As a cost-conscious phone user, I want to be able to track individual app
+network data usage so that I can be more informed how my data is being used.
+
+* Depending on the context, I want to individually restrict the usage of
+background data on mobile networks for all apps on the device.
+  * Context examples: usage near limit, battery level low, always, roaming
+
+* As a cost-conscious phone user, I want to be able to restrict specific apps
+from using data in the *foreground*.
+
+* As a cost-conscious phone user, I want to be able to restrict specific apps
+from using data in the *background*.
+
+* As a cost-conscious user, I want to update my apps on wifi so that I can save
+data usage.
+
+##### Text, MMS, Voice usage
+
+* As a cost conscious phone user, I want to know the amount of SMS/MMS messages
+I’ve sent/received in a billing period, so that I can avoid extra charges.
+
+* As a cost-conscious phone user, I want to know the amount of local and long
+distance minutes I’ve used in a defined billing period, so that I can avoid
+extra charges.
+
+##### Multiple SIM card support
+
+The following are multiple SIM-card specific. The following questions need to be
+answered before these can be fleshed out:
+
+* How do people use multiple SIM cards (e.g. two slots or swapping)?
+* Why do people use multiple SIM cards?
+* If people swap SIM cards, can we make it a really painless experience to swap?
+(i.e. no restarting, state is preserved)
+
+Onto the user stories:
+
+* As a multiple-SIM user, I want to be able to separately track data associated
+with each SIM card (including voice, messaging, and data), so that I can manage
+services between SIMs.
+
+* As a multiple-SIM user who swaps SIMs, I want to easily update my usage plan
+configuration on my phone to reflect the SIM in use.
+  * Premature solution: automatically.
+
+* As a multiple-SIM user who swaps SIMs, I want application-specific data
+settings to tied to each SIM card. **I don't know if this is really a good user story**
+
+#### Down the road
+
+These are user stories which will really differentiate ourselves from the
+competition and really hit home hard on our value propositions.
+
+* As a cost conscious user, I want an easy way of informing my phone how many
+minutes, texts and data are in my plan/billing cycle.
+  * Possible high level solution:
+  [Integration with operator usage plans](#integration-with-operator-usage-plans)
+
+* As a cost conscious user, I want to be able to share my apps with friends out
+of band to save data.
+
+* As a cost-conscious user, I want to update my apps using a wired connection to
+a computer so that I can save data usage while not requiring consistent wifi
+access. **Too solution specific?**
+
+
 ## Existing Solutions
 
 ### Opera Max
@@ -443,6 +528,17 @@ be given to warn the user that they are consuming too quickly.
 
 This idea was found in [My Data Manager][mdm].
 [mdm]:https://play.google.com/store/apps/details?id=com.mobidia.android.mdm
+
+### Integration with operator usage plans
+
+Carriers know how many minutes, texts, and data the user has left. This
+information could be sycned with Firefox OS so that the user does NOT need to
+configure their phone. It should "just work".
+
+Anecdotes have been shared where this is not as easy as one might expect. What
+are the complications with doing a carrier integration? Why can't this thing
+be standardized once and for all and all mobile OSs understand how much usage
+is available (instead of another proprietary solution)?
 
 ## Related Resources
 
