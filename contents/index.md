@@ -189,9 +189,6 @@ from using data in the *foreground*.
 * As a cost-conscious phone user, I want to be able to restrict specific apps
 from using data in the *background*.
 
-* As a cost-conscious user, I want to update my apps on wifi so that I can save
-data usage.
-
 
 ##### Multiple SIM card support
 
@@ -220,6 +217,9 @@ settings to tied to each SIM card. **I don't know if this is really a good user 
 
 These are user stories which will really differentiate ourselves from the
 competition and really hit home hard on our value propositions.
+
+* As a cost-conscious user, I want to update my apps on wifi so that I can save
+data usage.
 
 * As a cost conscious user, I want an easy way of informing my phone how many
 minutes, texts and data are in my plan/billing cycle.
