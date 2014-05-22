@@ -192,14 +192,6 @@ from using data in the *background*.
 * As a cost-conscious user, I want to update my apps on wifi so that I can save
 data usage.
 
-##### Text, MMS, Voice usage
-
-* As a cost conscious phone user, I want to know the amount of SMS/MMS messages
-I’ve sent/received in a billing period, so that I can avoid extra charges.
-
-* As a cost-conscious phone user, I want to know the amount of local and long
-distance minutes I’ve used in a defined billing period, so that I can avoid
-extra charges.
 
 ##### Multiple SIM card support
 
@@ -240,6 +232,15 @@ of band to save data.
 * As a cost-conscious user, I want to update my apps using a wired connection to
 a computer so that I can save data usage while not requiring consistent wifi
 access. **Too solution specific?**
+
+##### Text, MMS, Voice usage
+
+* As a cost conscious phone user, I want to know the amount of SMS/MMS messages
+I’ve sent/received in a billing period, so that I can avoid extra charges.
+
+* As a cost-conscious phone user, I want to know the amount of local and long
+distance minutes I’ve used in a defined billing period, so that I can avoid
+extra charges.
 
 
 ## Existing Solutions
