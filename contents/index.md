@@ -233,6 +233,9 @@ of band to save data.
 a computer so that I can save data usage while not requiring consistent wifi
 access. **Too solution specific?**
 
+* As a pre-paid user, I want to be able to buy more minutes, data and/or text
+messages for my account.
+
 ##### Text, MMS, Voice usage
 
 * As a cost conscious phone user, I want to know the amount of SMS/MMS messages
