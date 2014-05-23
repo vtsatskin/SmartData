@@ -202,13 +202,11 @@ answered before these can be fleshed out:
 
 Onto the user stories:
 
-* As a multiple-SIM user, I want to be able to separately track data associated
-with each SIM card (including voice, messaging, and data), so that I can manage
-services between SIMs.
-
 * As a multiple-SIM user who swaps SIMs, I want to easily update my usage plan
 configuration on my phone to reflect the SIM in use.
 
+* As a multiple-SIM user, I want to be able to separately track data usage
+associated with each SIM card so that I can understand my usage between SIMs.
 
 #### Down the road
 
