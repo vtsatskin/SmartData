@@ -208,7 +208,6 @@ services between SIMs.
 
 * As a multiple-SIM user who swaps SIMs, I want to easily update my usage plan
 configuration on my phone to reflect the SIM in use.
-  * Premature solution: automatically.
 
 
 #### Down the road
