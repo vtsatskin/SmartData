@@ -202,6 +202,9 @@ answered before these can be fleshed out:
 
 Onto the user stories:
 
+* As a multi-slot SIM user, I want to be able to specify which SIM should send
+data requests through.
+
 * As a multiple-SIM user who swaps SIMs, I want to easily update my usage plan
 configuration on my phone to reflect the SIM in use.
 
