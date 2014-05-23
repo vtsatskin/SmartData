@@ -168,27 +168,27 @@ All of the these user stories need to be assessed from a customer segmentation
 perspective to see if the number of people who fall into these user stories are
 worth investing time into.
 
-#### Highest Priority
+#### Firefox OS 2.1 Priority
 
 These are determined by what bring us up to par with other solutions. These are
 intended to be user stories which should be "most bang for the buck" (i.e. not a
 lot of engineering time should need to be invested).
+
+Higher listed items are to be considered higher priority.
 
 ##### Data Usage
 
 * As a cost-conscious phone user, I want to be able to track individual app
 network data usage so that I can be more informed how my data is being used.
 
-* Depending on the context, I want to individually restrict the usage of
-background data on mobile networks for all apps on the device.
-  * Context examples: usage near limit, battery level low, always, roaming
-
 * As a cost-conscious phone user, I want to be able to restrict specific apps
-from using data in the *foreground*.
+from using data *entirely*.
 
 * As a cost-conscious phone user, I want to be able to restrict specific apps
 from using data in the *background*.
 
+* As a cost-conscious phone user, I want to restrict the usage of background
+data on mobile networks when my battery level is low for all apps on the device.
 
 ##### Multiple SIM card support
 
