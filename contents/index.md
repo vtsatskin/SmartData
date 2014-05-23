@@ -210,8 +210,6 @@ services between SIMs.
 configuration on my phone to reflect the SIM in use.
   * Premature solution: automatically.
 
-* As a multiple-SIM user who swaps SIMs, I want application-specific data
-settings to tied to each SIM card. **I don't know if this is really a good user story**
 
 #### Down the road
 
