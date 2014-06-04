@@ -246,6 +246,33 @@ extra charges.
 
 ## Existing Solutions
 
+### Android Data Usage
+
+Android has a built in data usage tracker which can be launched from the
+settings. The tool allows the user to see a graph of their data usage. The user
+can select a subsection of their cycle to analyze to gain a better understanding
+of where usage spikes occurred.
+
+A list of applications is displayed with their usages for the selected
+subsection. They are ordered by usage in descending order. Applications can be
+inspected in greater detail showing their foreground and background data usage.
+
+![](images/existing-resources/android-data-usage/settings.png)
+
+Data usage location, *Android Settings*
+
+![](images/existing-resources/android-data-usage/overview.png)
+
+Overview of cycle with subsection, *Android Data Usage*
+
+![](images/existing-resources/android-data-usage/cycle-selection.png)
+
+Cycle selection, *Android Data Usage*
+
+![](images/existing-resources/android-data-usage/app-details.png)
+
+App details, *Android Data Usage*
+
 ### Opera Max
 
 Opera Max is an android application to help monitor, record and save data on
