@@ -586,6 +586,15 @@ are the complications with doing a carrier integration? Why can't this thing
 be standardized once and for all and all mobile OSs understand how much usage
 is available (instead of another proprietary solution)?
 
+## Mockups
+
+### Simple Usage Integration
+
+This is the minimal amount of complexity and change required to bring our 2.1
+user stories into existence.
+
+[![](images/mockups/simple-integration.png)](images/mockups/simple-integration.png)
+
 ## Related Resources
 
 **Box access is required*
