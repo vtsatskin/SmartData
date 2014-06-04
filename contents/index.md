@@ -490,8 +490,6 @@ emails and videos the user can send on the current cycle.
 
 ## Concepts
 
-These are concept ideas for smart data sharing
-
 ### Understandable mental model of data
 
 Apple made communicating to users how many songs their iPods could hold not by
