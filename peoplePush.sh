@@ -5,4 +5,6 @@
 #    https://people.mozilla.org/~vtsatskin/secure/SmartData/
 
 wintersmith build
+# Repalce occurances of /images with images in generated html files. fuck sed.
+sed -i '' s/\\/images/images/ build/*.html
 rsync -avz build/ people:public_html/secure/SmartData/
