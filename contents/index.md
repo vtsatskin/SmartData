@@ -531,6 +531,21 @@ be given to warn the user that they are consuming too quickly.
 This idea was found in [My Data Manager][mdm].
 [mdm]:https://play.google.com/store/apps/details?id=com.mobidia.android.mdm
 
+### Analyzing Data Usage
+
+If we are tracking traffic usage of each app, we should have a wealth of
+historical information available. With this data, Firefox OS could try to give
+smart advice for helping users use their data more efficiently.
+
+Some ideas:
+
+* Warn users if their current rate of usage will cause them to consume more
+data than they have for their cycle.
+* "You could save 200 MB a month if you disabled background data for *data hog*"
+* "It looks like you're not using *background data hog* much yet it uses a
+lot of data in the background. Would you like to disable background data for
+this application?"
+
 ### Integration with operator usage plans
 
 Carriers know how many minutes, texts, and data the user has left. This
