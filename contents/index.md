@@ -526,6 +526,10 @@ prediction model of how much data the user will use in the month. We can display
 the predicted data usage for the month to the user. In addition, a warning can
 be given to warn the user that they are consuming too quickly.
 
+#### Open questions
+
+* What features can we look at in order to gauge consumption patterns?
+
 This idea was found in [My Data Manager][mdm].
 [mdm]:https://play.google.com/store/apps/details?id=com.mobidia.android.mdm
 
