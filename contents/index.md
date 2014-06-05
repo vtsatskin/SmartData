@@ -622,6 +622,13 @@ Saving Tips*. Operators may particularly like the ability for users to buy more
 data or watch advertisements in exchange for more data. However, a good balance
 must the struck in order to put the users first.
 
+In screens *1* and *2* the bar graphs are intended to line up with the indicated
+budgets to help users visualize graphically how much data their applications are
+using in relation to their budget. This is to help users understand the
+differences between the different data usage measurements (i.e. kBs, MBs, GBs).
+The assumption here is that our cost conscious users may not be educated in what
+these measurements really mean.
+
 [![](images/mockups/timeline.png)](images/mockups/timeline.png)
 
 ## Related Resources
