@@ -614,7 +614,7 @@ informed decision of how to control the application's data usage.
 
 The concept of a daily budget is introduced to help users manage their daily
 consumption. Think weight watchers for your data. The month's data cap is split
-between 30 days and shown in *1. Today's Usage*. This might confuse users
+between 30 days and shown in *2. Today's Usage*. This might confuse users
 into thinking their operator imposes daily data caps.
 
 Data saving tips are introduced to help users manage their data. See *Data

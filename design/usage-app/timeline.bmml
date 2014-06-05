@@ -1,6 +1,6 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1372" measuredH="609" mockupW="1335" mockupH="594">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1372" measuredH="609" mockupW="1331" mockupH="594">
   <controls>
-    <control controlID="0" controlTypeID="__group__" x="37" y="36" w="282" h="573" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="0" controlTypeID="__group__" x="420" y="36" w="282" h="573" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>Today%20View</controlName>
       </controlProperties>
@@ -12,8 +12,8 @@
         </control>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="29" y="143" w="225" h="27" measuredW="148" measuredH="27" zOrder="1" locked="false" isInGroup="0">
           <controlProperties>
-            <selectedIndex>0</selectedIndex>
-            <text>Today%2C%20This%20Month</text>
+            <selectedIndex>1</selectedIndex>
+            <text>This%20Month%2C%20Today</text>
           </controlProperties>
         </control>
         <control controlID="2" controlTypeID="__group__" x="96" y="106" w="149" h="31" measuredW="149" measuredH="31" zOrder="2" locked="false" isInGroup="0">
@@ -304,7 +304,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="6" controlTypeID="__group__" x="442" y="36" w="282" h="573" measuredW="282" measuredH="573" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="6" controlTypeID="__group__" x="41" y="36" w="282" h="573" measuredW="282" measuredH="573" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>Today%20View</controlName>
       </controlProperties>
@@ -316,8 +316,8 @@
         </control>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="29" y="143" w="225" h="27" measuredW="148" measuredH="27" zOrder="1" locked="false" isInGroup="6">
           <controlProperties>
-            <selectedIndex>1</selectedIndex>
-            <text>Today%2C%20This%20Month</text>
+            <selectedIndex>0</selectedIndex>
+            <text>This%20Month%2C%20Today</text>
           </controlProperties>
         </control>
         <control controlID="2" controlTypeID="__group__" x="96" y="106" w="149" h="31" measuredW="149" measuredH="31" zOrder="2" locked="false" isInGroup="6">
@@ -368,7 +368,7 @@
           <groupChildrenDescriptors>
             <control controlID="0" controlTypeID="com.balsamiq.mockups::ProgressBar" x="54" y="23" w="149" h="20" measuredW="100" measuredH="20" zOrder="0" locked="false" isInGroup="62">
               <controlProperties>
-                <scrollBarValue>54</scrollBarValue>
+                <scrollBarValue>10</scrollBarValue>
               </controlProperties>
             </control>
             <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="6" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="62">
@@ -397,7 +397,7 @@
           <groupChildrenDescriptors>
             <control controlID="0" controlTypeID="com.balsamiq.mockups::ProgressBar" x="54" y="23" w="149" h="20" measuredW="100" measuredH="20" zOrder="0" locked="false" isInGroup="64">
               <controlProperties>
-                <scrollBarValue>23</scrollBarValue>
+                <scrollBarValue>5</scrollBarValue>
               </controlProperties>
             </control>
             <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="6" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="64">
@@ -433,7 +433,7 @@
               <groupChildrenDescriptors>
                 <control controlID="0" controlTypeID="com.balsamiq.mockups::ProgressBar" x="0" y="0" w="149" h="20" measuredW="100" measuredH="20" zOrder="0" locked="false" isInGroup="1">
                   <controlProperties>
-                    <scrollBarValue>54</scrollBarValue>
+                    <scrollBarValue>20</scrollBarValue>
                   </controlProperties>
                 </control>
                 <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="6" y="0" w="47" h="-1" measuredW="47" measuredH="21" zOrder="1" locked="false" isInGroup="1">
@@ -459,7 +459,7 @@
           <groupChildrenDescriptors>
             <control controlID="0" controlTypeID="com.balsamiq.mockups::ProgressBar" x="54" y="23" w="149" h="20" measuredW="100" measuredH="20" zOrder="0" locked="false" isInGroup="66">
               <controlProperties>
-                <scrollBarValue>23</scrollBarValue>
+                <scrollBarValue>5</scrollBarValue>
               </controlProperties>
             </control>
             <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="6" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="66">
@@ -486,13 +486,13 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="15" controlTypeID="com.balsamiq.mockups::Arrow" x="293" y="272" w="91" h="10" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Arrow" x="676" y="272" w="91" h="10" measuredW="150" measuredH="100" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <leftArrow>false</leftArrow>
         <rightArrow>false</rightArrow>
       </controlProperties>
     </control>
-    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="374" y="251" w="-1" h="-1" measuredW="10" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="757" y="251" w="-1" h="-1" measuredW="10" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <text>3</text>
       </controlProperties>
@@ -503,36 +503,36 @@
         <text>3.%20App%20Drill%20Down</text>
       </controlProperties>
     </control>
-    <control controlID="22" controlTypeID="com.balsamiq.mockups::Label" x="442" y="15" w="-1" h="-1" measuredW="135" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Label" x="41" y="15" w="-1" h="-1" measuredW="132" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
-        <text>2.%20This%20Month%27s%20Usage</text>
+        <text>1.%20This%20Month%27s%20Usage</text>
       </controlProperties>
     </control>
-    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="37" y="15" w="-1" h="-1" measuredW="101" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="420" y="15" w="-1" h="-1" measuredW="104" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
-        <text>1.%20Today%27s%20Usage</text>
+        <text>2.%20Today%27s%20Usage</text>
       </controlProperties>
     </control>
-    <control controlID="24" controlTypeID="com.balsamiq.mockups::Arrow" x="293" y="185" w="91" h="10" measuredW="150" measuredH="100" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Arrow" x="285" y="185" w="91" h="10" measuredW="150" measuredH="100" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <leftArrow>false</leftArrow>
         <rightArrow>false</rightArrow>
       </controlProperties>
     </control>
-    <control controlID="25" controlTypeID="com.balsamiq.mockups::Label" x="374" y="164" w="-1" h="-1" measuredW="10" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Label" x="366" y="164" w="-1" h="-1" measuredW="10" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <text>2</text>
       </controlProperties>
     </control>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::Arrow" x="686" y="387" w="91" h="10" measuredW="150" measuredH="100" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Arrow" x="285" y="387" w="91" h="10" measuredW="150" measuredH="100" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <leftArrow>false</leftArrow>
         <rightArrow>false</rightArrow>
       </controlProperties>
     </control>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="767" y="366" w="10" h="-1" measuredW="10" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="366" y="366" w="10" h="-1" measuredW="10" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <text>3</text>
       </controlProperties>
