@@ -643,3 +643,8 @@ language when mockups are made for this project.*
 **[The mobile consumer, Neilsen, February 2013](https://mozilla.box.com/s/ll853vigkmqkz5eife2g)***
 
 An overview of mobile consumption patterns and statistics for various countries.
+
+**[Offline Patterns 0.3](https://mozilla.box.com/s/q3mh4svgs5lg63cf68us)**
+
+A spec to help handle situations when a user does not have any data connection
+and an app requests/requires it.
