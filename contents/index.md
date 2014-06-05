@@ -593,6 +593,21 @@ is available (instead of another proprietary solution)?
 This is the minimal amount of complexity and change required to bring our 2.1
 user stories into existence.
 
+It is hypothesized that users who are searching for ways to control their
+settings may expect to find those controls in the settings app. So a new entry
+point into usage is added to the *Data and Cellular* section of settings (see
+*0.1*).
+
+Users who have multiple SIM cards may want to know which SIM card the graph is
+being displayed for. The active SIM card is displayed in the figure *1* at the
+bottom.
+
+The value of having WiFi usage is in question, as seen in the *3b* alternative.
+Instead, this area is used to report more about mobile usage. A histogram of
+monthly usage is included along with a report of what percentage of the data is
+used in the background. This is intended to help support the user in making an
+informed decision of how to control the application's data usage.
+
 [![](images/mockups/simple-integration.png)](images/mockups/simple-integration.png)
 
 ## Related Resources
