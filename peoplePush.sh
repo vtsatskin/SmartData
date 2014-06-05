@@ -6,5 +6,5 @@
 
 wintersmith build
 # Repalce occurances of /images with images in generated html files. fuck sed.
-sed -i '' s/\\/images/images/ build/*.html
+sed -i '' 's/\/images/images/g' build/*.html
 rsync -avz build/ people:public_html/secure/SmartData/
