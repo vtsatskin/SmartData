@@ -639,3 +639,7 @@ these measurements really mean.
 
 *The Firefox OS 2.0 Settings Drawer Spec. Will be useful to follow this design
 language when mockups are made for this project.*
+
+**[The mobile consumer, Neilsen, February 2013](https://mozilla.box.com/s/ll853vigkmqkz5eife2g)***
+
+An overview of mobile consumption patterns and statistics for various countries.
