@@ -610,6 +610,20 @@ informed decision of how to control the application's data usage.
 
 [![](images/mockups/simple-integration.png)](images/mockups/simple-integration.png)
 
+### Daily budget timeline
+
+The concept of a daily budget is introduced to help users manage their daily
+consumption. Think weight watchers for your data. The month's data cap is split
+between 30 days and shown in *1. Today's Usage*. This might confuse users
+into thinking their operator imposes daily data caps.
+
+Data saving tips are introduced to help users manage their data. See *Data
+Saving Tips*. Operators may particularly like the ability for users to buy more
+data or watch advertisements in exchange for more data. However, a good balance
+must the struck in order to put the users first.
+
+[![](images/mockups/timeline.png)](images/mockups/timeline.png)
+
 ## Related Resources
 
 **Box access is required*
