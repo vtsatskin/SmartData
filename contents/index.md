@@ -519,6 +519,17 @@ These are just concepts, not a cohesive package of well integrated features.
 Implementing every single of these is probably crazy and will result in a
 frankenstein of a product.
 
+### Data Modes
+
+This idea originates from
+[FX OS Offline Concepts, January 2014][offlineConcepts2014] (p25-29).
+
+>Modes are preset or custom network configurations that allow users to easily
+take control of their data usage on a system level. Modes also offer a series of
+supports, such as contextual tips or notifications.
+
+[![](images/concepts/modes.png)](images/concepts/modes.png)
+
 ### Understandable mental model of data
 
 Apple made communicating to users how many songs their iPods could hold not by
