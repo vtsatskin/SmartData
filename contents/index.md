@@ -515,6 +515,10 @@ emails and videos the user can send on the current cycle.
 
 ## Concepts
 
+These are just concepts, not a cohesive package of well integrated features.
+Implementing every single of these is probably crazy and will result in a
+frankenstein of a product.
+
 ### Understandable mental model of data
 
 Apple made communicating to users how many songs their iPods could hold not by
