@@ -530,6 +530,18 @@ supports, such as contextual tips or notifications.
 
 [![](images/concepts/modes.png)](images/concepts/modes.png)
 
+### Top-up
+
+This idea originates from
+[FX OS Offline Concepts, January 2014][offlineConcepts2014] (p28-30).
+
+>Top Up is a system that allows users to establish some rules around when and
+where their device updates, or Tops Up, their data. Top Up rules include setting
+time, location and application priority. Top Up uses WiFi as the default, but
+will adhere to the configuration as dictated by Modes.
+
+[![](images/concepts/topup.png)](images/concepts/topup.png)
+
 ### Understandable mental model of data
 
 Apple made communicating to users how many songs their iPods could hold not by
