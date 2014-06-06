@@ -46,8 +46,7 @@ problem having to "juggle phones", "juggle SIMs", and normal phone usage?
 
 #### Sofia
 
-*Gathered from [FFOS_OfflineConcepts3f_09_merged.pdf][offlineConcepts2014]*
-[offlineConcepts2014]:https://mozilla.box.com/s/ak3iva799ppavdxgcl63
+*Gathered from [FX OS Offline Concepts, January 2014][offlineConcepts2014]*
 
 ##### Persona
 
@@ -588,7 +587,7 @@ is available (instead of another proprietary solution)?
 
 ### Mobile first
 
-From [Firefox OS Offline Positioning][fxosOffline2014]:
+From [FX OS Offline Concepts, January 2014][offlineConcepts2014]:
 
 > The research made it clear, we need to treat offline as the default. We need
 to shift our focus from delivering a product that depends on connectivity, to
@@ -658,5 +657,5 @@ An overview of mobile consumption patterns and statistics for various countries.
 A spec to help handle situations when a user does not have any data connection
 and an app requests/requires it.
 
-**[FX OS Offline Differentiation, January 2014][fxosOffline2014]***
-[fxosOffline2014]:https://mozilla.box.com/s/ak3iva799ppavdxgcl63
+**[FX OS Offline Concepts, January 2014][offlineConcepts2014]***
+[offlineConcepts2014]:https://mozilla.box.com/s/ak3iva799ppavdxgcl63
