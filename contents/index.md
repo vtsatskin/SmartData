@@ -542,6 +542,14 @@ will adhere to the configuration as dictated by Modes.
 
 [![](images/concepts/topup.png)](images/concepts/topup.png)
 
+### Application Settings
+
+This idea originates from
+[FX OS Offline Concepts, January 2014][offlineConcepts2014] (p31-33).
+
+[![](images/concepts/topup.png)](images/concepts/app-control.png)
+
+
 ### Understandable mental model of data
 
 Apple made communicating to users how many songs their iPods could hold not by
