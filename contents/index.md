@@ -67,7 +67,6 @@ See [sofia.user.story.pdf](resources/sofia.user.story.pdf).
 ### Existing User Stories (Jan 2013)
 
 *Gathered from [offline_concepts_jan2013.pdf][offlineConcepts2013]*
-[offlineConcepts2013]:https://mozilla.box.com/s/ojjqc2tgsia6sdxqmvt9
 
 Note: these do not solely focus on data consumption but also includes SMS and
 Voice usage.
@@ -656,6 +655,9 @@ An overview of mobile consumption patterns and statistics for various countries.
 
 A spec to help handle situations when a user does not have any data connection
 and an app requests/requires it.
+
+**[FX OS Offline Concepts, January 2013][offlineConcepts2013]***
+[offlineConcepts2013]:https://mozilla.box.com/s/ojjqc2tgsia6sdxqmvt9
 
 **[FX OS Offline Concepts, January 2014][offlineConcepts2014]***
 [offlineConcepts2014]:https://mozilla.box.com/s/ak3iva799ppavdxgcl63
