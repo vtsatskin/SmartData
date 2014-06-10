@@ -155,26 +155,17 @@ apps and how much data background apps use. Do we have any data on this?
 - Over what kind of a connection do you download apps?
 - Are there any situations where you would not download an app over WiFi?
 
-### Revised User Stories (2014) DRAFT
-
-*This section is in draft form and will probably be revised and reorganized,
-especially the priority groupings*
+### Revised User Stories (2014)
 
 The following are user stories for the 2014 Smart Data Consumption refresh.
 
-All of the these user stories need to be assessed from a customer segmentation
-perspective to see if the number of people who fall into these user stories are
-worth investing time into.
-
-#### Firefox OS 2.1 Priority
+#### Firefox OS 2.1
 
 These are determined by what bring us up to par with other solutions. These are
 intended to be user stories which should be "most bang for the buck" (i.e. not a
 lot of engineering time should need to be invested).
 
 Higher listed items are to be considered higher priority.
-
-##### Data Usage
 
 * As a cost-conscious phone user, I want to be able to track individual app
 network data usage so that I can be more informed how my data is being used.
@@ -188,31 +179,30 @@ from using data in the *background*.
 * As a cost-conscious phone user, I want to restrict the usage of background
 data on mobile networks when my battery level is low for all apps on the device.
 
-##### Multiple SIM card support
-
-The following are multiple SIM-card specific. The following questions need to be
-answered before these can be fleshed out:
-
-* How do people use multiple SIM cards (e.g. two slots or swapping)?
-* Why do people use multiple SIM cards?
-* If people swap SIM cards, can we make it a really painless experience to swap?
-(i.e. no restarting, state is preserved)
-
-Onto the user stories:
-
-* As a multi-slot SIM user, I want to be able to specify which SIM should send
-data requests through.
-
 * As a multiple-SIM user who swaps SIMs, I want to easily update my usage plan
 configuration on my phone to reflect the SIM in use.
 
 * As a multiple-SIM user, I want to be able to separately track data usage
 associated with each SIM card so that I can understand my usage between SIMs.
 
-#### Down the road
+* As a user, when I go to use an app when I am out of data I want to be informed
+that I am out of data and be given the opportunity to purchase more so that I
+don't get a generic error message.
+
+* As a user, I want to be able to explicitly put my device into a mode whereby
+no mobile data can be used to allow me to control when I do not want data to be
+consumed.
+
+* As a user, I want to be able to override the data saving mode for a specific
+app, temporarily, so that I can use that app without all of my other apps also
+using data.
+
+#### Future Stories
 
 These are user stories which will really differentiate ourselves from the
 competition and really hit home hard on our value propositions.
+
+##### Data Usage
 
 * As a cost-conscious user, I want to update my apps on wifi so that I can save
 data usage.
