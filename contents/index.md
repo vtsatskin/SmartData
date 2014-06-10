@@ -673,6 +673,19 @@ these measurements really mean.
 
 [![](images/mockups/timeline.png)](images/mockups/timeline.png)
 
+### Chart Slider
+
+The cycle's entire usage is displayed as a cumulative usage graph. The user may
+make a sub-section selection with the sliders to have more fine grained insight
+into the usage for a specific time period. This allows one to investigate
+anomalies in data usage such as spikes or extreme usage.
+
+Below the graph, the list of applications and their respective usages for the
+selected range are shown. These are ordered in descending order of their data
+usage.
+
+[![](images/mockups/chart-slider.png)](images/mockups/chart-slider.png)
+
 ## Related Resources
 
 **Box access is required*
