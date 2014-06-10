@@ -537,7 +537,7 @@ will adhere to the configuration as dictated by Modes.
 This idea originates from
 [FX OS Offline Concepts, January 2014][offlineConcepts2014] (p31-33).
 
-[![](images/concepts/topup.png)](images/concepts/app-control.png)
+[![](images/concepts/app-control.png)](images/concepts/app-control.png)
 
 
 ### Understandable mental model of data
