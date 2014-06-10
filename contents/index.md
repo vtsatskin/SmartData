@@ -630,15 +630,14 @@ settings may expect to find those controls in the settings app. So a new entry
 point into usage is added to the *Data and Cellular* section of settings (see
 *0.1*).
 
-Users who have multiple SIM cards may want to know which SIM card the graph is
-being displayed for. The active SIM card is displayed in the figure *1* at the
-bottom.
+Users who have multiple SIM cards may want to know which SIM card the data is
+being displayed for. A tab bar is added at the top of figure *1.0* to facilitate
+this. The user may select which SIM card to display from this bar as well.
 
-The value of having WiFi usage is in question, as seen in the *3b* alternative.
-Instead, this area is used to report more about mobile usage. A histogram of
-monthly usage is included along with a report of what percentage of the data is
-used in the background. This is intended to help support the user in making an
-informed decision of how to control the application's data usage.
+As seen in figure *2b*, a histogram of monthly usage is included along with a
+report of what percentage of the data is used in the background. This is
+intended to help support the user in making an informed decision of how to
+control the application's data usage.
 
 [![](images/mockups/simple-integration.png)](images/mockups/simple-integration.png)
 
