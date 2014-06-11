@@ -673,6 +673,9 @@ Below the graph, the list of applications and their respective usages for the
 selected range are shown. These are ordered in descending order of their data
 usage.
 
+If available, data saving tips and promotions will be shown at the top as a
+carrousel.
+
 [![](images/mockups/chart-slider.png)](images/mockups/chart-slider.png)
 
 ## Related Resources
