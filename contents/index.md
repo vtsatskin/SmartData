@@ -597,7 +597,7 @@ this application?"
 ### Integration with operator usage plans
 
 Carriers know how many minutes, texts, and data the user has left. This
-information could be sycned with Firefox OS so that the user does NOT need to
+information could be synced with Firefox OS so that the user does NOT need to
 configure their phone. It should "just work".
 
 Anecdotes have been shared where this is not as easy as one might expect. What
