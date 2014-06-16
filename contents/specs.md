@@ -7,6 +7,8 @@ template: index.jade
 
 ### Entry Points
 
+[![](images/specs/entry-points.png)](images/specs/entry-points.png)
+
 ### First Time Experience
 
 ### Cycle Configuration
