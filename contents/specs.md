@@ -31,10 +31,26 @@ a visual style which indicates this. As an example, *Figure 1.2* shows the bars
 displayed in red. The visual style should be sensitive to cultural meanings of
 colours.
 
+### Application Data Control
+
+[![](images/specs/app-data-control.png)](images/specs/app-data-control.png)
+
+Pressing the back button in the top right should go back to the previous screen,
+ensuring of the previous screen is preserved.
+
+The cycle's usage, seen in *A*, should substitute "month" with the user's chosen
+cycle. For example, if they are on a weekly cycle it would say "X MB of data
+used this week".
+
+In a multi-SIM configuration, seen in *Figure 2.1*, heading *D* should indicate
+which SIM is being configured. Controls *B* and *C* should be tied to the SIM
+and not a global setting.
+
+
+### Chart
+
 ### First Time Experience
 
 ### Cycle Configuration
-
-### App-specific Control
 
 ### Data savings tips
