@@ -3,6 +3,51 @@ title: Smart Data Consumption Specifications
 template: index.jade
 ---
 
+## Background
+
+From our user value propositions, users need to understand and track their data
+usage, so they don’t go over budget. Users should be enabled to do more with
+less. [1]
+
+[1]:https://mozilla.app.box.com/files/0/f/1958416320/1/f_17084860470
+
+
+## User Stories
+
+From the user research, we've identified user stories which will help guide us
+to materialize these value propositions.
+
+* As a cost-conscious phone user, I want to be able to track individual app
+network data usage so that I can be more informed how my data is being used.
+
+* As a cost-conscious phone user, I want to be able to restrict specific apps
+from using data *entirely*.
+
+* As a cost-conscious phone user, I want to be able to restrict specific apps
+from using data in the *background*.
+
+* As a cost-conscious phone user, I want to restrict the usage of background
+data on mobile networks when my battery level is low for all apps on the device.
+
+* As a multiple-SIM user who swaps SIMs, I want to easily update my usage plan
+configuration on my phone to reflect the SIM in use.
+
+* As a multiple-SIM user, I want to be able to separately track data usage
+associated with each SIM card so that I can understand my usage between SIMs.
+
+* As a user, when I go to use an app when I am out of data I want to be informed
+that I am out of data and be given the opportunity to purchase more so that I
+don't get a generic error message.
+
+* As a user, I want to be able to explicitly put my device into a mode whereby
+no mobile data can be used to allow me to control when I do not want data to be
+consumed.
+
+* As a user, I want to be able to override the data saving mode for a specific
+app, temporarily, so that I can use that app without all of my other apps also
+using data.
+
+
 ## Firefox 2.1
 
 ### Entry Points
