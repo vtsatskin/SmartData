@@ -410,6 +410,18 @@
                 <color>16777215</color>
               </controlProperties>
             </control>
+            <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="11" y="201" w="92" h="-1" measuredW="84" measuredH="27" zOrder="11" locked="false" isInGroup="86">
+              <controlProperties>
+                <color>16777215</color>
+                <size>20</size>
+                <text>Unlimited</text>
+              </controlProperties>
+            </control>
+            <control controlID="12" controlTypeID="com.balsamiq.mockups::HRule" x="7" y="183" w="213" h="-1" measuredW="100" measuredH="10" zOrder="12" locked="false" isInGroup="86">
+              <controlProperties>
+                <color>16777215</color>
+              </controlProperties>
+            </control>
           </groupChildrenDescriptors>
         </control>
         <control controlID="105" controlTypeID="com.balsamiq.mockups::Label" x="38" y="271" w="-1" h="-1" measuredW="99" measuredH="20" zOrder="7" locked="false" isInGroup="11">
@@ -718,7 +730,7 @@
         <text>3.2.1%20Limit%20amount%20selection%20input</text>
       </controlProperties>
     </control>
-    <control controlID="41" controlTypeID="com.balsamiq.mockups::Component" x="464" y="1788" w="-1" h="-1" measuredW="235" measuredH="169" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Component" x="464" y="1788" w="235" h="169" measuredW="235" measuredH="169" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/symbols.bmml#Numbr Pad</src>
       </controlProperties>

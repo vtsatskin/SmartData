@@ -106,7 +106,11 @@ The plan start date, *B*, should update based on the plan type as well. The day
 of the week should be shown for weekly plans. "Day X of each month" should be
 shown for monthly plans. The input field should not be shown at for daily plans.
 
-These behaviours are reflected in *Figures 3.4.1, 3.4.2, 3.4.3*.
+If the unlimited plan type is selected, no other configuration should be shown.
+No notifications should ever be shown. The usage notification tray should not
+be shown either.
+
+These behaviours are reflected in the following figures.
 
 [![](images/specs/settings-plan-types.png)](images/specs/settings-plan-types.png)
 

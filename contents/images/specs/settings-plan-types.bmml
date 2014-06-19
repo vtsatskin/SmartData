@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1283" measuredH="629" mockupW="1126" mockupH="609">
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1683" measuredH="629" mockupW="1526" mockupH="609">
   <controls>
     <control controlID="0" controlTypeID="__group__" x="200" y="56" w="282" h="573" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -334,15 +334,15 @@
             <text>Alert%20when%20use%20above</text>
           </controlProperties>
         </control>
-        <control controlID="114" controlTypeID="com.balsamiq.mockups::TextInput" x="38" y="431" w="151" h="-1" measuredW="32" measuredH="23" zOrder="14" locked="false" isInGroup="6">
+        <control controlID="114" controlTypeID="com.balsamiq.mockups::TextInput" x="38" y="431" w="151" h="-1" measuredW="25" measuredH="23" zOrder="14" locked="false" isInGroup="6">
           <controlProperties>
             <align>right</align>
-            <text>180</text>
+            <text>90</text>
           </controlProperties>
         </control>
-        <control controlID="115" controlTypeID="com.balsamiq.mockups::ComboBox" x="195" y="431" w="52" h="-1" measuredW="50" measuredH="23" zOrder="15" locked="false" isInGroup="6">
+        <control controlID="115" controlTypeID="com.balsamiq.mockups::ComboBox" x="195" y="431" w="52" h="-1" measuredW="42" measuredH="23" zOrder="15" locked="false" isInGroup="6">
           <controlProperties>
-            <text>MB</text>
+            <text>%25</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
@@ -394,6 +394,72 @@
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="10" controlTypeID="__group__" x="1401" y="56" w="282" h="573" measuredW="282" measuredH="573" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>Usage%201</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="true" isInGroup="10">
+          <controlProperties>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="29" y="143" w="225" h="27" measuredW="113" measuredH="20" zOrder="1" locked="false" isInGroup="10">
+          <controlProperties>
+            <selectedIndex>0</selectedIndex>
+            <text>SIM%201%2C%20SIM2</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="96" y="106" w="149" h="29" measuredW="149" measuredH="29" zOrder="2" locked="false" isInGroup="10">
+          <controlProperties>
+            <controlName>Header</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="-1" h="-1" measuredW="102" measuredH="29" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>28</size>
+                <text>Settings</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="117" y="4" w="-1" h="-1" measuredW="32" measuredH="20" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Done</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="49" controlTypeID="__group__" x="32" y="170" w="219" h="41" measuredW="219" measuredH="41" zOrder="3" locked="false" isInGroup="10">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="103" measuredH="20" zOrder="1" locked="false" isInGroup="49">
+              <controlProperties>
+                <bold>true</bold>
+                <text>Plan%20Information</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="31" w="219" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="49"/>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="219" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="49"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="51" controlTypeID="com.balsamiq.mockups::ComboBox" x="36" y="233" w="210" h="-1" measuredW="85" measuredH="23" zOrder="5" locked="false" isInGroup="10">
+          <controlProperties>
+            <text>Unlimited</text>
+          </controlProperties>
+        </control>
+        <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="36" y="210" w="-1" h="-1" measuredW="30" measuredH="20" zOrder="4" locked="false" isInGroup="10">
+          <controlProperties>
+            <bold>true</bold>
+            <text>Type</text>
+          </controlProperties>
+        </control>
+        <control controlID="56" controlTypeID="com.balsamiq.mockups::HRule" x="32" y="201" w="219" h="-1" measuredW="100" measuredH="10" zOrder="6" locked="false" isInGroup="10"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="1401" y="20" w="-1" h="-1" measuredW="123" measuredH="20" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>3.4.4%20Unlimited%20plan</text>
+      </controlProperties>
     </control>
   </controls>
 </mockup>
