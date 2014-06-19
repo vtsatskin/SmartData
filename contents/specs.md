@@ -116,6 +116,9 @@ These behaviours are reflected in the following figures.
 
 [![](images/specs/settings-plan-types.png)](images/specs/settings-plan-types.png)
 
+The device should remember SIM cards inserted and their respective plan
+configurations.
+
 
 ### Chart
 
