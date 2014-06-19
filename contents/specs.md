@@ -47,7 +47,6 @@ consumed.
 app, temporarily, so that I can use that app without all of my other apps also
 using data.
 
-
 ## Firefox 2.1
 
 ### Entry Points
@@ -91,11 +90,17 @@ In a multi-SIM configuration, seen in *Figure 2.1*, heading *D* should indicate
 which SIM is being configured. Controls *B* and *C* should be tied to the SIM
 and not a global setting.
 
+### Usage app configuration
+
+When a user has changed their data plan with their service provider, they will
+want their usage app configuration to reflect these changes. In the following
+story, the user has upgraded from a weekly 200 MB plan to a 1GB monthly plan.
+
+[![](images/specs/settings.png)](images/specs/settings.png)
+
 
 ### Chart
 
 ### First Time Experience
-
-### Cycle Configuration
 
 ### Data savings tips
