@@ -120,6 +120,14 @@ The device should remember SIM cards inserted and their respective plan
 configurations.
 
 
+### Notification tray bar
+
+[![](images/specs/notification-tray.png)](images/specs/notification-tray.png)
+
+In an unlimited plan configuration or when no SIM card is inserted, no tray bar
+should be shown.
+
+
 ### Chart
 
 ### First Time Experience

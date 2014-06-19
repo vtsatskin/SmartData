@@ -1,0 +1,311 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1164" measuredH="629" mockupW="1123" mockupH="609">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="41" y="56" w="282" h="573" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="true" isInGroup="0">
+          <controlProperties>
+            <bgPattern>allBlack</bgPattern>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="34" controlTypeID="com.balsamiq.mockups::IconLabel" x="45" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="1" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="35" controlTypeID="com.balsamiq.mockups::IconLabel" x="96" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="2" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="36" controlTypeID="com.balsamiq.mockups::IconLabel" x="201" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="3" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="37" controlTypeID="com.balsamiq.mockups::IconLabel" x="149" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="4" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="38" controlTypeID="com.balsamiq.mockups::IconLabel" x="45" y="178" w="37" h="-1" measuredW="38" measuredH="46" zOrder="5" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>ChartLineIcon%7Cmedium</icon>
+            <text>Usage</text>
+          </controlProperties>
+        </control>
+        <control controlID="48" controlTypeID="__group__" x="27" y="455" w="228" h="32" measuredW="228" measuredH="32" zOrder="6" locked="false" isInGroup="0">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="228" h="32" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="48"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="8" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="54" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="100" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="145" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="192" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="5" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="49" controlTypeID="__group__" x="27" y="419" w="228" h="39" measuredW="228" measuredH="39" zOrder="7" locked="false" isInGroup="0">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="228" h="39" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="49"/>
+            <control controlID="6" controlTypeID="com.balsamiq.mockups::ProgressBar" x="10" y="3" w="191" h="20" measuredW="100" measuredH="20" zOrder="1" locked="false" isInGroup="49">
+              <controlProperties>
+                <scrollBarValue>38</scrollBarValue>
+              </controlProperties>
+            </control>
+            <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="10" y="19" w="40" h="-1" measuredW="31" measuredH="20" zOrder="2" locked="false" isInGroup="49">
+              <controlProperties>
+                <text>Used</text>
+              </controlProperties>
+            </control>
+            <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="170" y="19" w="31" h="-1" measuredW="28" measuredH="20" zOrder="3" locked="false" isInGroup="49">
+              <controlProperties>
+                <align>right</align>
+                <text>Limit</text>
+              </controlProperties>
+            </control>
+            <control controlID="9" controlTypeID="com.balsamiq.mockups::Icon" x="201" y="7" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="49">
+              <controlProperties>
+                <icon>GtIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="14" y="3" w="73" h="-1" measuredW="59" measuredH="20" zOrder="5" locked="false" isInGroup="49">
+              <controlProperties>
+                <size>12</size>
+                <text>231.31%20MB</text>
+              </controlProperties>
+            </control>
+            <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="170" y="3" w="29" h="-1" measuredW="28" measuredH="20" zOrder="6" locked="false" isInGroup="49">
+              <controlProperties>
+                <size>12</size>
+                <text>5%20GB</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="41" y="20" w="-1" h="-1" measuredW="186" measuredH="20" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>4.1%20Notification%20tray%20usage%20bar</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::VCurly" x="323" y="474" w="140" h="42" measuredW="180" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pressing%20anywhere%20goes%20to%201.0</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="__group__" x="478" y="56" w="282" h="573" measuredW="282" measuredH="573" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="true" isInGroup="3">
+          <controlProperties>
+            <bgPattern>allBlack</bgPattern>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="34" controlTypeID="com.balsamiq.mockups::IconLabel" x="45" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="1" locked="false" isInGroup="3">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="35" controlTypeID="com.balsamiq.mockups::IconLabel" x="96" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="2" locked="false" isInGroup="3">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="36" controlTypeID="com.balsamiq.mockups::IconLabel" x="201" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="3" locked="false" isInGroup="3">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="37" controlTypeID="com.balsamiq.mockups::IconLabel" x="149" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="4" locked="false" isInGroup="3">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="38" controlTypeID="com.balsamiq.mockups::IconLabel" x="45" y="178" w="37" h="-1" measuredW="38" measuredH="46" zOrder="5" locked="false" isInGroup="3">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>ChartLineIcon%7Cmedium</icon>
+            <text>Usage</text>
+          </controlProperties>
+        </control>
+        <control controlID="48" controlTypeID="__group__" x="27" y="455" w="228" h="32" measuredW="228" measuredH="32" zOrder="6" locked="false" isInGroup="3">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="228" h="32" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="48"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="8" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="54" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="100" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="145" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="192" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="5" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="49" controlTypeID="__group__" x="27" y="419" w="228" h="39" measuredW="228" measuredH="39" zOrder="7" locked="false" isInGroup="3">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="228" h="39" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="49"/>
+            <control controlID="13" controlTypeID="com.balsamiq.mockups::Icon" x="8" y="8" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="49">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="35" y="1" w="-1" h="-1" measuredW="108" measuredH="20" zOrder="2" locked="false" isInGroup="49">
+              <controlProperties>
+                <bold>true</bold>
+                <text>New%20SIM%20inserted</text>
+              </controlProperties>
+            </control>
+            <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="34" y="18" w="-1" h="-1" measuredW="183" measuredH="20" zOrder="3" locked="false" isInGroup="49">
+              <controlProperties>
+                <text>Tap%20to%20track%20your%20internet%20usage</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="478" y="20" w="-1" h="-1" measuredW="177" measuredH="20" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>4.2%20New%20SIM%20notification%20tray</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="__group__" x="882" y="56" w="282" h="573" measuredW="282" measuredH="573" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="true" isInGroup="6">
+          <controlProperties>
+            <bgPattern>allBlack</bgPattern>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="34" controlTypeID="com.balsamiq.mockups::IconLabel" x="45" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="1" locked="false" isInGroup="6">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="35" controlTypeID="com.balsamiq.mockups::IconLabel" x="96" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="2" locked="false" isInGroup="6">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="36" controlTypeID="com.balsamiq.mockups::IconLabel" x="201" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="3" locked="false" isInGroup="6">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="37" controlTypeID="com.balsamiq.mockups::IconLabel" x="149" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="4" locked="false" isInGroup="6">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="38" controlTypeID="com.balsamiq.mockups::IconLabel" x="45" y="178" w="37" h="-1" measuredW="38" measuredH="46" zOrder="5" locked="false" isInGroup="6">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>ChartLineIcon%7Cmedium</icon>
+            <text>Usage</text>
+          </controlProperties>
+        </control>
+        <control controlID="48" controlTypeID="__group__" x="27" y="455" w="228" h="32" measuredW="228" measuredH="32" zOrder="6" locked="false" isInGroup="6">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="228" h="32" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="48"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="8" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="54" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="100" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="145" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="192" y="4" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="5" locked="false" isInGroup="48">
+              <controlProperties>
+                <icon>CircleIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="882" y="20" w="-1" h="-1" measuredW="213" measuredH="20" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>4.2%20Unlimited%20plan%20or%20no%20SIM%20cards</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
