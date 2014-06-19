@@ -98,6 +98,18 @@ story, the user has upgraded from a weekly 200 MB plan to a 1GB monthly plan.
 
 [![](images/specs/settings.png)](images/specs/settings.png)
 
+The limit amount label, *A*, should update to reflect the type of plan
+specified. "Limit per month", "Limit per week", and "Limit per day" should be
+used for monthly, weekly and daily plan types respectively.
+
+The plan start date, *B*, should update based on the plan type as well. The day
+of the week should be shown for weekly plans. "Day X of each month" should be
+shown for monthly plans. The input field should not be shown at for daily plans.
+
+These behaviours are reflected in *Figures 3.4.1, 3.4.2, 3.4.3*.
+
+[![](images/specs/settings-plan-types.png)](images/specs/settings-plan-types.png)
+
 
 ### Chart
 
