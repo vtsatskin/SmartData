@@ -128,7 +128,7 @@ The cycle's usage, seen in *A*, should substitute "month" with the user's chosen
 cycle. For example, if they are on a weekly cycle it would say "X MB of data
 used this week".
 
-### Usage app configuration
+### SIM Plan Configuration
 
 When a user has changed their data plan with their service provider, they will
 want their usage app configuration to reflect these changes. In the following
