@@ -158,6 +158,25 @@ use. In an unlimited plan configuration or when no SIM card is inserted, no tray
 bar should be shown.
 
 
+### Data usage alerts
+
+In the following scenario, the user has reached the threshold they've defined
+for data use alerts.
+
+[![](images/specs/data-alert.png)](images/specs/data-alert.png)
+
+The notification text, *A*, should be adjusted for the unit of data limit
+reached. When a MB or GB limit is reached, the text should read "200 *X* of data
+used".
+
+In the following scenario, the user has reached their defined data limit.
+
+[![](images/specs/data-limit-reached.png)](images/specs/data-limit-reached.png)
+
+If the user reaches their defined limit, the data connection should
+automatically shut off to protect the user from the incurred costs.
+
+
 ### Chart
 
 ### Data savings tips
