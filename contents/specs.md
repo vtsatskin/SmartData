@@ -74,6 +74,17 @@ In this scenario the user discovers the usage app through the home screen.
 As with the previous section, a SIM card that did not have its configuration
 opened should be left in an unconfigured state.
 
+#### Settings App Discovery
+
+In this scenario, the user has come across the usage app through the navigating
+through the system settings (*Settings > Cellular & Data > SIM 2*).
+
+[![](images/specs/fte-settings-entry.png)](images/specs/fte-settings-entry.png)
+
+In a mulit-SIM configuration, the selected SIM should correspond to the SIM
+active in the "Cellular and Data" settings view.
+
+
 ### Entry Points
 
 [![](images/specs/entry-points.png)](images/specs/entry-points.png)
@@ -154,7 +165,5 @@ should be shown.
 
 
 ### Chart
-
-### First Time Experience
 
 ### Data savings tips
