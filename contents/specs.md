@@ -49,6 +49,22 @@ using data.
 
 ## Firefox 2.1
 
+### First Time Experience
+
+In each of these scenarios, the user has never opened the usage app and has
+never configured their data plans.
+
+#### Notification Tray Discovery
+
+In this scenario, the user discovers the usage app through the notification
+tray.
+
+[![](images/specs/fte-notification-tray.png)](images/specs/fte-notification-tray.png)
+
+In a multi-SIM device, if the user does not open the other SIM configuration, it
+should be in an unconfigured state. A SIM in an unconfigured state will show a
+screen such as *Figure 5.1* in the following section.
+
 ### Entry Points
 
 [![](images/specs/entry-points.png)](images/specs/entry-points.png)
