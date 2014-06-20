@@ -52,7 +52,9 @@ using data.
 ### First Time Experience
 
 In each of these scenarios, the user has never opened the usage app and has
-never configured their data plans.
+never configured their data plans. There is a large flow skipped, which is the
+actual configuration of a user's plan in *Figure 3.0* of each scenario. See the
+*SIM Plan Configuration* section for more details.
 
 #### Notification Tray Discovery
 
