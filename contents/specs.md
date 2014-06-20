@@ -86,15 +86,6 @@ through the system settings (*Settings > Cellular & Data > SIM 2*).
 In a mulit-SIM configuration, the selected SIM should correspond to the SIM
 active in the "Cellular and Data" settings view.
 
-
-### Entry Points
-
-[![](images/specs/entry-points.png)](images/specs/entry-points.png)
-
-In a multi-SIM situation, the settings view of *Figure 0.1* is the configuration
-view for an individual SIM. Therefore pressing "Data usage and control" should
-display that SIM when showing *Figure 1.0*.
-
 ### Usage Overview
 
 [![](images/specs/usage-overview.png)](images/specs/usage-overview.png)
@@ -169,3 +160,5 @@ should be shown.
 ### Chart
 
 ### Data savings tips
+
+### Disabled app behaviour
