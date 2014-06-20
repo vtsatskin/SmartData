@@ -182,3 +182,8 @@ automatically shut off to protect the user from the incurred costs.
 ### Data savings tips
 
 ### Disabled app behaviour
+
+### Unused secondary SIM slot
+
+In multi-SIM devices with only one SIM card inserted, the device should follow
+the single SIM versions of the specifications.
