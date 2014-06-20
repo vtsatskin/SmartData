@@ -47,7 +47,7 @@ consumed.
 app, temporarily, so that I can use that app without all of my other apps also
 using data.
 
-## Firefox 2.1
+## Firefox OS 2.1
 
 ### First Time Experience
 
