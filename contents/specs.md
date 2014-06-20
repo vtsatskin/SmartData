@@ -65,6 +65,15 @@ In a multi-SIM device, if the user does not open the other SIM configuration, it
 should be in an unconfigured state. A SIM in an unconfigured state will show a
 screen such as *Figure 5.1* in the following section.
 
+#### Home Screen Discovery
+
+In this scenario the user discovers the usage app through the home screen.
+
+[![](images/specs/fte-home-entry.png)](images/specs/fte-home-entry.png)
+
+As with the previous section, a SIM card that did not have its configuration
+opened should be left in an unconfigured state.
+
 ### Entry Points
 
 [![](images/specs/entry-points.png)](images/specs/entry-points.png)

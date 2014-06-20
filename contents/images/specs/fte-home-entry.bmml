@@ -1,0 +1,656 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1601" measuredH="1348" mockupW="1561" mockupH="1304">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="40" y="80" w="282" h="573" measuredW="282" measuredH="573" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="true" isInGroup="0">
+          <controlProperties>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="34" controlTypeID="com.balsamiq.mockups::IconLabel" x="45" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="1" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="35" controlTypeID="com.balsamiq.mockups::IconLabel" x="96" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="2" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="36" controlTypeID="com.balsamiq.mockups::IconLabel" x="201" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="3" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="37" controlTypeID="com.balsamiq.mockups::IconLabel" x="149" y="116" w="37" h="-1" measuredW="32" measuredH="46" zOrder="4" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>CircleIcon%7Cmedium</icon>
+            <text>App</text>
+          </controlProperties>
+        </control>
+        <control controlID="38" controlTypeID="com.balsamiq.mockups::IconLabel" x="45" y="178" w="37" h="-1" measuredW="38" measuredH="46" zOrder="5" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>ChartLineIcon%7Cmedium</icon>
+            <text>Usage</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="40" y="44" w="-1" h="-1" measuredW="95" measuredH="20" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>0.2%20Home%20Entry</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="103" y="275" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HandPointIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="440" y="44" w="-1" h="-1" measuredW="209" measuredH="20" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>5.1%20SIM%20not%20configured%20%28Multi%20SIM%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="__group__" x="440" y="80" w="282" h="573" measuredW="282" measuredH="573" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>Usage%201</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="4">
+          <controlProperties>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="29" y="143" w="225" h="27" measuredW="116" measuredH="20" zOrder="1" locked="false" isInGroup="4">
+          <controlProperties>
+            <selectedIndex>1</selectedIndex>
+            <text>SIM%201%2C%20SIM%202</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="96" y="106" w="149" h="29" measuredW="149" measuredH="29" zOrder="2" locked="false" isInGroup="4">
+          <controlProperties>
+            <controlName>Header</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="-1" h="-1" measuredW="81" measuredH="29" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>28</size>
+                <text>Usage</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="125" y="3" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <icon>GearIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="51" controlTypeID="com.balsamiq.mockups::HRule" x="33" y="278" w="216" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="4"/>
+        <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="38" y="258" w="-1" h="-1" measuredW="132" measuredH="20" zOrder="4" locked="false" isInGroup="4">
+          <controlProperties>
+            <bold>true</bold>
+            <text>Add%20Plan%20Information</text>
+          </controlProperties>
+        </control>
+        <control controlID="54" controlTypeID="com.balsamiq.mockups::Paragraph" x="38" y="294" w="207" h="80" measuredW="275" measuredH="80" zOrder="5" locked="false" isInGroup="4">
+          <controlProperties>
+            <text>Data%20usage%20for%20SIM%202%20will%20be%20shown%20once%20Firefox%20OS%20knows%20about%20your%20data%20plan.</text>
+          </controlProperties>
+        </control>
+        <control controlID="58" controlTypeID="__group__" x="38" y="356" w="184" h="20" measuredW="184" measuredH="20" zOrder="6" locked="false" isInGroup="4">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="58">
+              <controlProperties>
+                <icon>GearIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="31" y="0" w="-1" h="-1" measuredW="153" measuredH="20" zOrder="1" locked="false" isInGroup="58">
+              <controlProperties>
+                <text>Configure%20plan%20information</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="661" y="204" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HandPointIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="__group__" x="840" y="80" w="282" h="573" measuredW="282" measuredH="573" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>Usage%201</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="true" isInGroup="6">
+          <controlProperties>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="29" y="143" w="225" h="27" measuredW="116" measuredH="20" zOrder="1" locked="false" isInGroup="6">
+          <controlProperties>
+            <selectedIndex>1</selectedIndex>
+            <text>SIM%201%2C%20SIM%202</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="96" y="106" w="149" h="29" measuredW="149" measuredH="29" zOrder="2" locked="false" isInGroup="6">
+          <controlProperties>
+            <controlName>Header</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="-1" h="-1" measuredW="102" measuredH="29" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>28</size>
+                <text>Settings</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="117" y="4" w="-1" h="-1" measuredW="32" measuredH="20" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Done</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="49" controlTypeID="__group__" x="32" y="170" w="219" h="41" measuredW="219" measuredH="41" zOrder="3" locked="false" isInGroup="6">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="103" measuredH="20" zOrder="1" locked="false" isInGroup="49">
+              <controlProperties>
+                <bold>true</bold>
+                <text>Plan%20Information</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="31" w="219" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="49"/>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="219" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="49"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="51" controlTypeID="com.balsamiq.mockups::ComboBox" x="36" y="233" w="210" h="-1" measuredW="73" measuredH="23" zOrder="5" locked="false" isInGroup="6">
+          <controlProperties>
+            <text>Weekly</text>
+          </controlProperties>
+        </control>
+        <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="36" y="210" w="-1" h="-1" measuredW="30" measuredH="20" zOrder="4" locked="false" isInGroup="6">
+          <controlProperties>
+            <bold>true</bold>
+            <text>Type</text>
+          </controlProperties>
+        </control>
+        <control controlID="56" controlTypeID="com.balsamiq.mockups::HRule" x="32" y="201" w="219" h="-1" measuredW="100" measuredH="10" zOrder="6" locked="false" isInGroup="6"/>
+        <control controlID="105" controlTypeID="com.balsamiq.mockups::Label" x="38" y="271" w="-1" h="-1" measuredW="91" measuredH="20" zOrder="7" locked="false" isInGroup="6">
+          <controlProperties>
+            <bold>true</bold>
+            <text>Limit%20per%20week</text>
+          </controlProperties>
+        </control>
+        <control controlID="106" controlTypeID="com.balsamiq.mockups::TextInput" x="38" y="295" w="151" h="-1" measuredW="32" measuredH="23" zOrder="8" locked="false" isInGroup="6">
+          <controlProperties>
+            <align>right</align>
+            <text>200</text>
+          </controlProperties>
+        </control>
+        <control controlID="107" controlTypeID="com.balsamiq.mockups::ComboBox" x="195" y="295" w="52" h="-1" measuredW="50" measuredH="23" zOrder="9" locked="false" isInGroup="6">
+          <controlProperties>
+            <text>MB</text>
+          </controlProperties>
+        </control>
+        <control controlID="108" controlTypeID="com.balsamiq.mockups::Label" x="38" y="333" w="-1" h="-1" measuredW="90" measuredH="20" zOrder="10" locked="false" isInGroup="6">
+          <controlProperties>
+            <bold>true</bold>
+            <text>Plan%20start%20date</text>
+          </controlProperties>
+        </control>
+        <control controlID="109" controlTypeID="com.balsamiq.mockups::TextInput" x="38" y="353" w="209" h="-1" measuredW="55" measuredH="23" zOrder="11" locked="false" isInGroup="6">
+          <controlProperties>
+            <align>left</align>
+            <text>Sunday</text>
+          </controlProperties>
+        </control>
+        <control controlID="110" controlTypeID="__group__" x="33" y="383" w="219" h="41" measuredW="219" measuredH="41" zOrder="12" locked="false" isInGroup="6">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="80" measuredH="20" zOrder="1" locked="false" isInGroup="110">
+              <controlProperties>
+                <bold>true</bold>
+                <text>Usage%20Alerts</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="31" w="219" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="110"/>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="219" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="110"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="111" controlTypeID="com.balsamiq.mockups::Label" x="38" y="430" w="-1" h="-1" measuredW="81" measuredH="20" zOrder="13" locked="false" isInGroup="6">
+          <controlProperties>
+            <text>Data%20use%20alert</text>
+          </controlProperties>
+        </control>
+        <control controlID="112" controlTypeID="com.balsamiq.mockups::Switch" x="198" y="426" w="-1" h="-1" measuredW="49" measuredH="28" zOrder="14" locked="false" isInGroup="6"/>
+        <control controlID="113" controlTypeID="com.balsamiq.mockups::Label" x="38" y="457" w="-1" h="-1" measuredW="126" measuredH="20" zOrder="15" locked="false" isInGroup="6">
+          <controlProperties>
+            <text>Alert%20when%20use%20above</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="841" y="44" w="-1" h="-1" measuredW="185" measuredH="20" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>3.0%20Usage%20Settings%20%28Multi%20SIM%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="1051" y="201" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HandPointIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="1241" y="44" w="-1" h="-1" measuredW="151" measuredH="20" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>1.3%20No%20Usage%20%28Multi%20SIM%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="__group__" x="1241" y="80" w="282" h="573" measuredW="282" measuredH="573" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>Usage%201</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="10">
+          <controlProperties>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="29" y="143" w="225" h="27" measuredW="116" measuredH="20" zOrder="1" locked="false" isInGroup="10">
+          <controlProperties>
+            <selectedIndex>1</selectedIndex>
+            <text>SIM%201%2C%20SIM%202</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="96" y="106" w="149" h="29" measuredW="149" measuredH="29" zOrder="2" locked="false" isInGroup="10">
+          <controlProperties>
+            <controlName>Header</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="-1" h="-1" measuredW="81" measuredH="29" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>28</size>
+                <text>Usage</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="125" y="3" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <icon>GearIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="36" controlTypeID="__group__" x="33" y="308" w="216" h="21" measuredW="216" measuredH="21" zOrder="3" locked="false" isInGroup="10">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="28" measuredH="20" zOrder="0" locked="false" isInGroup="36">
+              <controlProperties>
+                <text>Total</text>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="__group__" x="35" y="0" w="181" h="21" measuredW="181" measuredH="21" zOrder="1" locked="false" isInGroup="36">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::ProgressBar" x="0" y="1" w="181" h="20" measuredW="100" measuredH="20" zOrder="0" locked="false" isInGroup="5">
+                  <controlProperties>
+                    <scrollBarValue>0</scrollBarValue>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="128" y="1" w="51" h="-1" measuredW="45" measuredH="20" zOrder="1" locked="false" isInGroup="5">
+                  <controlProperties>
+                    <align>right</align>
+                    <text>200%20MB</text>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="5" y="0" w="-1" h="-1" measuredW="31" measuredH="20" zOrder="2" locked="false" isInGroup="5">
+                  <controlProperties>
+                    <color>0</color>
+                    <text>0%20MB</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="42" controlTypeID="__group__" x="29" y="331" w="219" h="41" measuredW="219" measuredH="41" zOrder="4" locked="false" isInGroup="10">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="68" measuredH="20" zOrder="1" locked="false" isInGroup="42">
+              <controlProperties>
+                <bold>true</bold>
+                <text>App%20Usage</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="31" w="219" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="42"/>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="219" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="42"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="49" controlTypeID="com.balsamiq.mockups::Paragraph" x="35" y="387" w="212" h="80" measuredW="275" measuredH="80" zOrder="5" locked="false" isInGroup="10">
+          <controlProperties>
+            <align>center</align>
+            <text>You%20have%20not%20used%20any%20data%20this%20week.%20Usage%20for%20each%20application%20will%20show%20up%20here%20when%20you%20do.</text>
+          </controlProperties>
+        </control>
+        <control controlID="50" controlTypeID="com.balsamiq.mockups::Canvas" x="31" y="172" w="223" h="129" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="10"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="440" y="739" w="-1" h="-1" measuredW="218" measuredH="20" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>5.1%20SIM%20not%20configured%20%28Single%20SIM%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="__group__" x="440" y="775" w="282" h="573" measuredW="282" measuredH="573" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>Usage%201</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="12">
+          <controlProperties>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="96" y="106" w="149" h="29" measuredW="149" measuredH="29" zOrder="1" locked="false" isInGroup="12">
+          <controlProperties>
+            <controlName>Header</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="-1" h="-1" measuredW="81" measuredH="29" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>28</size>
+                <text>Usage</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="125" y="3" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <icon>GearIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="51" controlTypeID="com.balsamiq.mockups::HRule" x="33" y="278" w="216" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="12"/>
+        <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="38" y="258" w="-1" h="-1" measuredW="132" measuredH="20" zOrder="3" locked="false" isInGroup="12">
+          <controlProperties>
+            <bold>true</bold>
+            <text>Add%20Plan%20Information</text>
+          </controlProperties>
+        </control>
+        <control controlID="54" controlTypeID="com.balsamiq.mockups::Paragraph" x="38" y="294" w="207" h="80" measuredW="275" measuredH="80" zOrder="4" locked="false" isInGroup="12">
+          <controlProperties>
+            <text>Data%20usage%20will%20be%20shown%20once%20Firefox%20OS%20knows%20about%20your%20data%20plan.</text>
+          </controlProperties>
+        </control>
+        <control controlID="58" controlTypeID="__group__" x="38" y="356" w="184" h="20" measuredW="184" measuredH="20" zOrder="5" locked="false" isInGroup="12">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="58">
+              <controlProperties>
+                <icon>GearIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="31" y="0" w="-1" h="-1" measuredW="153" measuredH="20" zOrder="1" locked="false" isInGroup="58">
+              <controlProperties>
+                <text>Configure%20plan%20information</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Icon" x="661" y="899" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HandPointIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="__group__" x="840" y="775" w="282" h="573" measuredW="282" measuredH="573" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>Usage%201</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="true" isInGroup="14">
+          <controlProperties>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="96" y="106" w="149" h="29" measuredW="149" measuredH="29" zOrder="1" locked="false" isInGroup="14">
+          <controlProperties>
+            <controlName>Header</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="-1" h="-1" measuredW="102" measuredH="29" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>28</size>
+                <text>Settings</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="117" y="4" w="-1" h="-1" measuredW="32" measuredH="20" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Done</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="49" controlTypeID="__group__" x="32" y="135" w="219" h="41" measuredW="219" measuredH="41" zOrder="2" locked="false" isInGroup="14">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="103" measuredH="20" zOrder="1" locked="false" isInGroup="49">
+              <controlProperties>
+                <bold>true</bold>
+                <text>Plan%20Information</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="31" w="219" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="49"/>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="219" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="49"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="51" controlTypeID="com.balsamiq.mockups::ComboBox" x="36" y="198" w="210" h="-1" measuredW="73" measuredH="23" zOrder="4" locked="false" isInGroup="14">
+          <controlProperties>
+            <text>Weekly</text>
+          </controlProperties>
+        </control>
+        <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="36" y="175" w="-1" h="-1" measuredW="30" measuredH="20" zOrder="3" locked="false" isInGroup="14">
+          <controlProperties>
+            <bold>true</bold>
+            <text>Type</text>
+          </controlProperties>
+        </control>
+        <control controlID="56" controlTypeID="com.balsamiq.mockups::HRule" x="32" y="166" w="219" h="-1" measuredW="100" measuredH="10" zOrder="5" locked="false" isInGroup="14"/>
+        <control controlID="105" controlTypeID="com.balsamiq.mockups::Label" x="38" y="236" w="-1" h="-1" measuredW="91" measuredH="20" zOrder="6" locked="false" isInGroup="14">
+          <controlProperties>
+            <bold>true</bold>
+            <text>Limit%20per%20week</text>
+          </controlProperties>
+        </control>
+        <control controlID="106" controlTypeID="com.balsamiq.mockups::TextInput" x="38" y="260" w="151" h="-1" measuredW="32" measuredH="23" zOrder="7" locked="false" isInGroup="14">
+          <controlProperties>
+            <align>right</align>
+            <text>200</text>
+          </controlProperties>
+        </control>
+        <control controlID="107" controlTypeID="com.balsamiq.mockups::ComboBox" x="195" y="260" w="52" h="-1" measuredW="50" measuredH="23" zOrder="8" locked="false" isInGroup="14">
+          <controlProperties>
+            <text>MB</text>
+          </controlProperties>
+        </control>
+        <control controlID="108" controlTypeID="com.balsamiq.mockups::Label" x="38" y="298" w="-1" h="-1" measuredW="90" measuredH="20" zOrder="9" locked="false" isInGroup="14">
+          <controlProperties>
+            <bold>true</bold>
+            <text>Plan%20start%20date</text>
+          </controlProperties>
+        </control>
+        <control controlID="109" controlTypeID="com.balsamiq.mockups::TextInput" x="38" y="318" w="209" h="-1" measuredW="55" measuredH="23" zOrder="10" locked="false" isInGroup="14">
+          <controlProperties>
+            <align>left</align>
+            <text>Sunday</text>
+          </controlProperties>
+        </control>
+        <control controlID="110" controlTypeID="__group__" x="33" y="348" w="219" h="41" measuredW="219" measuredH="41" zOrder="11" locked="false" isInGroup="14">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="80" measuredH="20" zOrder="1" locked="false" isInGroup="110">
+              <controlProperties>
+                <bold>true</bold>
+                <text>Usage%20Alerts</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="31" w="219" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="110"/>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="219" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="110"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="111" controlTypeID="com.balsamiq.mockups::Label" x="38" y="395" w="-1" h="-1" measuredW="81" measuredH="20" zOrder="12" locked="false" isInGroup="14">
+          <controlProperties>
+            <text>Data%20use%20alert</text>
+          </controlProperties>
+        </control>
+        <control controlID="112" controlTypeID="com.balsamiq.mockups::Switch" x="198" y="391" w="-1" h="-1" measuredW="49" measuredH="28" zOrder="13" locked="false" isInGroup="14"/>
+        <control controlID="113" controlTypeID="com.balsamiq.mockups::Label" x="38" y="422" w="-1" h="-1" measuredW="126" measuredH="20" zOrder="14" locked="false" isInGroup="14">
+          <controlProperties>
+            <text>Alert%20when%20use%20above</text>
+          </controlProperties>
+        </control>
+        <control controlID="114" controlTypeID="com.balsamiq.mockups::TextInput" x="38" y="444" w="151" h="-1" measuredW="25" measuredH="23" zOrder="15" locked="false" isInGroup="14">
+          <controlProperties>
+            <align>right</align>
+            <text>90</text>
+          </controlProperties>
+        </control>
+        <control controlID="115" controlTypeID="com.balsamiq.mockups::ComboBox" x="195" y="444" w="52" h="-1" measuredW="42" measuredH="23" zOrder="16" locked="false" isInGroup="14">
+          <controlProperties>
+            <text>%25</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="841" y="739" w="-1" h="-1" measuredW="194" measuredH="20" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>3.0%20Usage%20Settings%20%28Single%20SIM%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Icon" x="1051" y="896" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HandPointIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="1241" y="739" w="-1" h="-1" measuredW="160" measuredH="20" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>1.3%20No%20Usage%20%28Single%20SIM%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="__group__" x="1241" y="775" w="282" h="573" measuredW="282" measuredH="573" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>Usage%201</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="282" h="573" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="18">
+          <controlProperties>
+            <model>IPhone5</model>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="96" y="106" w="149" h="29" measuredW="149" measuredH="29" zOrder="1" locked="false" isInGroup="18">
+          <controlProperties>
+            <controlName>Header</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="-1" h="-1" measuredW="81" measuredH="29" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>28</size>
+                <text>Usage</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="125" y="3" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <icon>GearIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="36" controlTypeID="__group__" x="33" y="271" w="216" h="21" measuredW="216" measuredH="21" zOrder="2" locked="false" isInGroup="18">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="28" measuredH="20" zOrder="0" locked="false" isInGroup="36">
+              <controlProperties>
+                <text>Total</text>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="__group__" x="35" y="0" w="181" h="21" measuredW="181" measuredH="21" zOrder="1" locked="false" isInGroup="36">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::ProgressBar" x="0" y="1" w="181" h="20" measuredW="100" measuredH="20" zOrder="0" locked="false" isInGroup="5">
+                  <controlProperties>
+                    <scrollBarValue>0</scrollBarValue>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="128" y="1" w="51" h="-1" measuredW="45" measuredH="20" zOrder="1" locked="false" isInGroup="5">
+                  <controlProperties>
+                    <align>right</align>
+                    <text>200%20MB</text>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="5" y="0" w="-1" h="-1" measuredW="31" measuredH="20" zOrder="2" locked="false" isInGroup="5">
+                  <controlProperties>
+                    <color>0</color>
+                    <text>0%20MB</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="42" controlTypeID="__group__" x="29" y="294" w="219" h="41" measuredW="219" measuredH="41" zOrder="3" locked="false" isInGroup="18">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="68" measuredH="20" zOrder="1" locked="false" isInGroup="42">
+              <controlProperties>
+                <bold>true</bold>
+                <text>App%20Usage</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="31" w="219" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="42"/>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="219" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="42"/>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="49" controlTypeID="com.balsamiq.mockups::Paragraph" x="35" y="350" w="212" h="80" measuredW="275" measuredH="80" zOrder="4" locked="false" isInGroup="18">
+          <controlProperties>
+            <align>center</align>
+            <text>You%20have%20not%20used%20any%20data%20this%20week.%20Usage%20for%20each%20application%20will%20show%20up%20here%20when%20you%20do.</text>
+          </controlProperties>
+        </control>
+        <control controlID="50" controlTypeID="com.balsamiq.mockups::Canvas" x="31" y="135" w="223" h="129" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="18"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Arrow" x="282" y="337" w="1319" h="10" measuredW="150" measuredH="100" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <curvature>1</curvature>
+        <leftArrow>false</leftArrow>
+        <text>Multi%20SIM</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="__group__" x="238" y="626" w="1363" h="395" measuredW="1363" measuredH="395" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Arrow" x="5" y="385" w="133" h="10" measuredW="150" measuredH="100" zOrder="0" locked="false" isInGroup="20">
+          <controlProperties>
+            <leftArrow>false</leftArrow>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Arrow" x="38" y="385" w="1325" h="10" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="20">
+          <controlProperties>
+            <curvature>1</curvature>
+            <leftArrow>false</leftArrow>
+            <text>Single%20SIM</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Arrow" x="0" y="0" w="10" h="392" measuredW="150" measuredH="100" zOrder="2" locked="false" isInGroup="20">
+          <controlProperties>
+            <leftArrow>false</leftArrow>
+            <rightArrow>false</rightArrow>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
