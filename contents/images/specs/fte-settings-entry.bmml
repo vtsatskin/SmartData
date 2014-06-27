@@ -159,28 +159,28 @@
             </control>
           </groupChildrenDescriptors>
         </control>
-        <control controlID="51" controlTypeID="com.balsamiq.mockups::HRule" x="33" y="278" w="216" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="4"/>
-        <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="38" y="258" w="-1" h="-1" measuredW="132" measuredH="20" zOrder="4" locked="false" isInGroup="4">
+        <control controlID="63" controlTypeID="com.balsamiq.mockups::HRule" x="33" y="273" w="216" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="4"/>
+        <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="38" y="253" w="-1" h="-1" measuredW="177" measuredH="20" zOrder="4" locked="false" isInGroup="4">
           <controlProperties>
             <bold>true</bold>
-            <text>Add%20Plan%20Information</text>
+            <text>Save%20data%20and%20control%20usage</text>
           </controlProperties>
         </control>
-        <control controlID="54" controlTypeID="com.balsamiq.mockups::Paragraph" x="38" y="294" w="207" h="80" measuredW="275" measuredH="80" zOrder="5" locked="false" isInGroup="4">
+        <control controlID="65" controlTypeID="com.balsamiq.mockups::Paragraph" x="38" y="289" w="207" h="80" measuredW="275" measuredH="80" zOrder="5" locked="false" isInGroup="4">
           <controlProperties>
-            <text>Data%20usage%20for%20SIM%202%20will%20be%20shown%20once%20Firefox%20OS%20knows%20about%20your%20data%20plan.</text>
+            <text>Usage%20tracking%20helps%20save%20money%20on%20data%20costs.%20It%20can%20help%20you%20understand%20how%20your%20data%20is%20being%20used%20and%20keep%20you%20in%20control.</text>
           </controlProperties>
         </control>
-        <control controlID="58" controlTypeID="__group__" x="38" y="356" w="184" h="20" measuredW="184" measuredH="20" zOrder="6" locked="false" isInGroup="4">
+        <control controlID="67" controlTypeID="__group__" x="38" y="369" w="180" h="24" measuredW="180" measuredH="24" zOrder="6" locked="false" isInGroup="4">
           <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="58">
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="-1" h="-1" measuredW="180" measuredH="24" zOrder="0" locked="false" isInGroup="67">
               <controlProperties>
-                <icon>GearIcon%7Cxsmall</icon>
+                <text>%20%20%20%20Configure%20usage%20tracking</text>
               </controlProperties>
             </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="31" y="0" w="-1" h="-1" measuredW="153" measuredH="20" zOrder="1" locked="false" isInGroup="58">
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="6" y="4" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="67">
               <controlProperties>
-                <text>Configure%20plan%20information</text>
+                <icon>GearIcon%7Cxsmall</icon>
               </controlProperties>
             </control>
           </groupChildrenDescriptors>
@@ -228,10 +228,10 @@
         </control>
         <control controlID="49" controlTypeID="__group__" x="32" y="170" w="219" h="41" measuredW="219" measuredH="41" zOrder="3" locked="false" isInGroup="6">
           <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="103" measuredH="20" zOrder="1" locked="false" isInGroup="49">
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="135" measuredH="20" zOrder="1" locked="false" isInGroup="49">
               <controlProperties>
                 <bold>true</bold>
-                <text>Plan%20Information</text>
+                <text>Data%20Plan%20Information</text>
               </controlProperties>
             </control>
             <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="31" w="219" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="49"/>
@@ -440,28 +440,28 @@
             </control>
           </groupChildrenDescriptors>
         </control>
-        <control controlID="51" controlTypeID="com.balsamiq.mockups::HRule" x="33" y="278" w="216" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="12"/>
-        <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="38" y="258" w="-1" h="-1" measuredW="132" measuredH="20" zOrder="3" locked="false" isInGroup="12">
+        <control controlID="59" controlTypeID="com.balsamiq.mockups::HRule" x="33" y="262" w="216" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="12"/>
+        <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="38" y="242" w="-1" h="-1" measuredW="177" measuredH="20" zOrder="3" locked="false" isInGroup="12">
           <controlProperties>
             <bold>true</bold>
-            <text>Add%20Plan%20Information</text>
+            <text>Save%20data%20and%20control%20usage</text>
           </controlProperties>
         </control>
-        <control controlID="54" controlTypeID="com.balsamiq.mockups::Paragraph" x="38" y="294" w="207" h="80" measuredW="275" measuredH="80" zOrder="4" locked="false" isInGroup="12">
+        <control controlID="61" controlTypeID="com.balsamiq.mockups::Paragraph" x="38" y="278" w="207" h="80" measuredW="275" measuredH="80" zOrder="4" locked="false" isInGroup="12">
           <controlProperties>
-            <text>Data%20usage%20for%20SIM%202%20will%20be%20shown%20once%20Firefox%20OS%20knows%20about%20your%20data%20plan.</text>
+            <text>Usage%20tracking%20helps%20save%20money%20on%20data%20costs.%20It%20can%20help%20you%20understand%20how%20your%20data%20is%20being%20used%20and%20keep%20you%20in%20control.</text>
           </controlProperties>
         </control>
-        <control controlID="58" controlTypeID="__group__" x="38" y="356" w="184" h="20" measuredW="184" measuredH="20" zOrder="5" locked="false" isInGroup="12">
+        <control controlID="63" controlTypeID="__group__" x="36" y="358" w="180" h="24" measuredW="180" measuredH="24" zOrder="5" locked="false" isInGroup="12">
           <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="58">
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="-1" h="-1" measuredW="180" measuredH="24" zOrder="0" locked="false" isInGroup="63">
               <controlProperties>
-                <icon>GearIcon%7Cxsmall</icon>
+                <text>%20%20%20%20Configure%20usage%20tracking</text>
               </controlProperties>
             </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="31" y="0" w="-1" h="-1" measuredW="153" measuredH="20" zOrder="1" locked="false" isInGroup="58">
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="6" y="4" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="63">
               <controlProperties>
-                <text>Configure%20plan%20information</text>
+                <icon>GearIcon%7Cxsmall</icon>
               </controlProperties>
             </control>
           </groupChildrenDescriptors>
@@ -503,10 +503,10 @@
         </control>
         <control controlID="49" controlTypeID="__group__" x="31" y="142" w="219" h="41" measuredW="219" measuredH="41" zOrder="2" locked="false" isInGroup="14">
           <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="103" measuredH="20" zOrder="1" locked="false" isInGroup="49">
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="2" y="10" w="-1" h="-1" measuredW="135" measuredH="20" zOrder="1" locked="false" isInGroup="49">
               <controlProperties>
                 <bold>true</bold>
-                <text>Plan%20Information</text>
+                <text>Data%20Plan%20Information</text>
               </controlProperties>
             </control>
             <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="31" w="219" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="49"/>
