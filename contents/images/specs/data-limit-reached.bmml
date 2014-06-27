@@ -65,11 +65,6 @@
             <text>Data%20limit%20reached</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="56" y="22" w="-1" h="-1" measuredW="137" measuredH="20" zOrder="3" locked="false" isInGroup="2">
-          <controlProperties>
-            <text>Data%20has%20been%20disabled</text>
-          </controlProperties>
-        </control>
         <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="228" h="55" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="2"/>
       </groupChildrenDescriptors>
     </control>
@@ -208,7 +203,7 @@
         </control>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="15" y="15" w="183" h="53" measuredW="275" measuredH="80" zOrder="1" locked="false" isInGroup="5">
           <controlProperties>
-            <text>*Data%20limit%20reached*%0AData%20has%20been%20disabled.%20Configure%20data%20connection</text>
+            <text>*Data%20limit%20reached*%0AConfigure%20data%20connection%20settings</text>
           </controlProperties>
         </control>
         <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="200" y="29" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="5">

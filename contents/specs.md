@@ -173,9 +173,6 @@ In the following scenario, the user has reached their defined data limit.
 
 [![](images/specs/data-limit-reached.png)](images/specs/data-limit-reached.png)
 
-If the user reaches their defined limit, the data connection should
-automatically shut off to protect the user from the incurred costs.
-
 
 ### Chart
 
