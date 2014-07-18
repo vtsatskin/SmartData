@@ -71,3 +71,11 @@ progress.usage-bar-progress::-moz-progress-bar {
 .browser-icon {
   background-image: url(browser_84.png);
 }
+
+.music-icon {
+  background-image: url(music_84.png);
+}
+
+.email-icon {
+  background-image: url(email_84.png);
+}
