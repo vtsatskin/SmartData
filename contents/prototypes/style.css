@@ -1,6 +1,11 @@
-/* Override from util.css to allow scrolling from iframes */
 body {
+  /* Override from util.css to allow scrolling from iframes */
   overflow: visible;
+}
+
+.scrollable.header {
+  /* Override from util.css to remove extra whitespace at top */
+  top: 0;
 }
 
 .chart {
