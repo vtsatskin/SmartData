@@ -1,3 +1,8 @@
+/* Override from util.css to allow scrolling from iframes */
+body {
+  overflow: visible;
+}
+
 .chart {
   height: 200px;
   background: #EEE;
