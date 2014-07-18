@@ -4,3 +4,65 @@
   color: #333;
   text-align: center;
 }
+
+
+/*
+ * Usage Bar
+ */
+
+.usage-bar {
+  font-size: 1.5rem;
+}
+
+.usage-bar-icon {
+  width: 42px;
+  height: 42px;
+  background-size: cover;
+  float: left;
+  margin-right: 10px;
+}
+
+.usage-bar-right {
+  float: left;
+  width: calc(100% - 52px);
+}
+
+.usage-bar-label {
+  margin-top: 6px;
+}
+
+progress.usage-bar-progress {
+  height: 20px;
+}
+progress.usage-bar-progress::-moz-progress-bar {
+  height: 20px;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.usage-bar-progress-container {
+  position: relative;
+}
+
+.usage-bar-min,
+.usage-bar-max {
+  position: absolute;
+  color: white;
+  top: 0.3rem;
+}
+
+.usage-bar-min {
+  left: 0.5rem;
+}
+.usage-bar-max {
+  right: 0.5rem;
+}
+
+
+/*
+ * Application Icons
+ */
+
+.browser-icon {
+  background-image: url(browser_84.png);
+}
