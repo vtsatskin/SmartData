@@ -13,6 +13,7 @@ body {
   background: #EEE;
   color: #333;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 
@@ -23,15 +24,33 @@ body {
 .usage-bar {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  height: 42px;
+  cursor: pointer;
+}
+
+.usage-bar:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.usage-bar-icon,
+.usage-bar-label-left {
+  width: 42px;
+  float: left;
+  margin-right: 10px;
+}
+
+.usage-bar-label-left {
+  height: 20px;
+
+  /* Align with baseline of min/max labels */
+  padding-top: 3px;
+  box-sizing: content-box;
 }
 
 .usage-bar-icon {
-  width: 42px;
   height: 42px;
   background-size: cover;
-  float: left;
-  margin-right: 10px;
 }
 
 .usage-bar-right {
