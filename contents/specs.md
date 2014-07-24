@@ -180,6 +180,13 @@ In the following scenario, the user has reached their defined data limit.
 
 ### Disabled app behaviour
 
+The disabled app popover should only be shown when the user launches the app. It
+should not be shown when doing ordinary task switching. If the system kills the
+app due to low memory and the user task switches, the app popover should not be
+shown.
+
+[![](images/specs/disabled-apps.png)](images/specs/disabled-apps.png)
+
 ### Unused secondary SIM slot
 
 In multi-SIM devices with only one SIM card inserted, the device should follow
