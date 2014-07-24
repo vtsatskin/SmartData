@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="../bower_components/building-blocks/icons/styles/settings_icons.css">
 
   <!-- Transitions -->
-  <link rel="stylesheet" href="transitions.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/transitions.css">
 
   <!-- Util CSS: some extra tricks -->
   <link rel="stylesheet" href="../bower_components/building-blocks/util.css">
@@ -99,5 +99,38 @@
       </div>
     </article>
   </section>
+
+  <section id="application-usage" data-position="right" role="region">
+    <header class="fixed">
+      <a href="#"><span class="icon icon-back" id="application-usage-back">back</span></a>
+      <h1>Browser</h1>
+    </header>
+
+    <article class="content scrollable header">
+      <header>
+        <h2>Data Usage</h2>
+      </header>
+      <h2 style="text-align: center;">
+        300 MB of data used this month
+      </h2>
+      <div class="chart"></div>
+
+      <header>
+        <h2>Data Control</h2>
+      </header>
+      <div>
+        <ul>
+          <li>
+            <label class="pack-switch">
+              <input type="checkbox" checked></input>
+              <span>Use mobile data</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>

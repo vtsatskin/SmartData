@@ -1,11 +1,6 @@
 body {
   /* Override from util.css to allow scrolling from iframes */
-  overflow: visible;
-}
-
-.scrollable.header {
-  /* Override from util.css to remove extra whitespace at top */
-  top: 0;
+  /*overflow: visible;*/
 }
 
 .chart {
@@ -14,6 +9,7 @@ body {
   color: #333;
   text-align: center;
   margin-bottom: 10px;
+  border: 2px dashed lightgray;
 }
 
 
@@ -90,6 +86,11 @@ progress.usage-bar-progress::-moz-progress-bar {
   right: 0.5rem;
 }
 
+label.pack-switch {
+  width: 100%;
+  height: 100%;
+}
+
 
 /*
  * Application Icons
@@ -105,4 +106,78 @@ progress.usage-bar-progress::-moz-progress-bar {
 
 .email-icon {
   background-image: url(email_84.png);
+}
+
+/*
+ * View transitioning
+ */
+
+[data-position="right"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  z-index: 15;
+  z-index: 100; /* -> drawer */
+}
+section[role="region"][data-position="right"] {
+  position: absolute;
+}
+[data-position="right"].current {
+  animation: rightToCurrent 0.4s forwards;
+  -webkit-animation: rightToCurrent 0.4s forwards;
+}
+[data-position="right"].right {
+  animation: currentToRight 0.4s forwards;
+  -webkit-animation: currentToRight 0.4s forwards;
+}
+[data-position="current"].left {
+  animation: currentToLeft 0.4s forwards;
+  -webkit-animation: currentToLeft 0.4s forwards;
+}
+[data-position="current"].current {
+  animation: leftToCurrent 0.4s forwards;
+  -webkit-animation: leftToCurrent 0.4s forwards;
+}
+[data-position="back"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0;
+  /* z-index: 100; -> drawer */
+}
+[data-position="back"].fade-in {
+  z-index: 120;
+  animation: fadeIn 0.2s forwards;
+  -webkit-animation: fadeIn 0.2s forwards;
+}
+[data-position="back"].fade-out {
+  animation: fadeOut 0.2s forwards;
+  -webkit-animation: fadeOut 0.2s forwards;
+}
+
+[data-position="edit-mode"] {
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  right: 0;
+  bottom: -7rem;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+[data-position="edit-mode"].edit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 120;
+  opacity: 1;
 }
