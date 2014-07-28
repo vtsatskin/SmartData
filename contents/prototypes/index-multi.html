@@ -47,7 +47,17 @@
       </menu>
       <h1>Usage</h1>
     </header>
-    <article class="content scrollable header" id="total-usage-container">
+    <article class="content scrollable header">
+      <ul role="tablist" class="bb-tablist" data-type="filter">
+        <li id="SIM1" role="presentation">
+          <a href="#SIM1" role="tab">SIM 1</a>
+        </li>
+        <li id="SIM2" role="presentation">
+          <a href="#SIM2" role="tab">SIM 2</a>
+        </li>
+      </ul>
+
+      <div id="total-usage-container"></div>
     </article>
   </section>
 
@@ -56,7 +66,7 @@
 
   <script id="application-usage-template" type="text/x-handlebars-template">
     <header class="fixed">
-      <a href="#"><span class="icon icon-back" id="application-usage-back">back</span></a>
+      <a href="#{{simID}}" id="application-usage-back"><span class="icon icon-back">back</span></a>
       <h1>{{title}}</h1>
     </header>
 

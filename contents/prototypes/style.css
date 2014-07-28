@@ -12,6 +12,10 @@ body {
   border: 2px dashed lightgray;
 }
 
+.bb-tablist {
+  margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+  width: calc(100% + 3rem);
+}
 
 /*
  * Usage Bar
