@@ -72,14 +72,14 @@ progress.usage-bar-progress::-moz-progress-bar {
   position: relative;
 }
 
-.usage-bar-min,
+.usage-bar-used,
 .usage-bar-max {
   position: absolute;
   color: #333;
   top: 0.3rem;
 }
 
-.usage-bar-min {
+.usage-bar-used {
   left: 0.5rem;
 }
 .usage-bar-max {
