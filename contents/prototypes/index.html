@@ -65,45 +65,18 @@
         <h2>App usage</h2>
       </header>
 
-      <div class="usage-bar">
-        <div class="usage-bar-icon browser-icon"></div>
-        <div class="usage-bar-right">
-          <div class="usage-bar-label">Browser</div>
-          <div class="usage-bar-progress-container">
-            <div class="usage-bar-min">250 MB</div>
-            <progress class="usage-bar-progress" value="0.25"></progress>
-          </div>
-        </div>
-      </div>
-
-      <div class="usage-bar">
-        <div class="usage-bar-icon music-icon"></div>
-        <div class="usage-bar-right">
-          <div class="usage-bar-label">Music</div>
-          <div class="usage-bar-progress-container">
-            <div class="usage-bar-min">145 MB</div>
-            <progress class="usage-bar-progress" value="0.145"></progress>
-          </div>
-        </div>
-      </div>
-
-      <div class="usage-bar">
-        <div class="usage-bar-icon email-icon"></div>
-        <div class="usage-bar-right">
-          <div class="usage-bar-label">Email</div>
-          <div class="usage-bar-progress-container">
-            <div class="usage-bar-min">105 MB</div>
-            <progress class="usage-bar-progress" value="0.105"></progress>
-          </div>
-        </div>
+      <div id="usage-bars">
       </div>
     </article>
   </section>
 
   <section id="application-usage" data-position="right" role="region">
+  </section>
+
+  <script id="application-usage-template" type="text/x-handlebars-template">
     <header class="fixed">
       <a href="#"><span class="icon icon-back" id="application-usage-back">back</span></a>
-      <h1>Browser</h1>
+      <h1>{{title}}</h1>
     </header>
 
     <article class="content scrollable header">
@@ -111,7 +84,7 @@
         <h2>Data Usage</h2>
       </header>
       <h2 style="text-align: center;">
-        300 MB of data used this month
+        {{usage}} MB of data used this month
       </h2>
       <div class="chart"></div>
 
@@ -129,8 +102,25 @@
         </ul>
       </div>
     </article>
-  </section>
+  </script>
 
+  <script id="usage-bars-template" type="text/x-handlebars-template">
+    {{#each apps}}
+    <div class="usage-bar">
+      <div class="usage-bar-icon" style="background-image: url({{icon}});"></div>
+      <div class="usage-bar-right">
+        <div class="usage-bar-label">{{title}}</div>
+        <div class="usage-bar-progress-container">
+          <div class="usage-bar-min">{{usage}} MB</div>
+          <progress class="usage-bar-progress" value="{{usage}}" max="{{../maxUsage}}"></progress>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </script>
+
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/handlebars/handlebars.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
