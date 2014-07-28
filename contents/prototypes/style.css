@@ -17,6 +17,10 @@ body {
   width: calc(100% + 3rem);
 }
 
+.icon-settings {
+  background-image: url(settings_icon@2x.png) !important;
+}
+
 /*
  * Usage Bar
  */
