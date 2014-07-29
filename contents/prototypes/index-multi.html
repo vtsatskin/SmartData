@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <title>Usage</title>
+  <!-- Building blocks -->
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/action_menu.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/buttons.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/confirm.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/edit_mode.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/headers.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/input_areas.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/status.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/switches.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/drawer.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/lists.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/progress_activity.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/scrolling.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/seekbars.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/tabs.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/style/toolbars.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="../bower_components/building-blocks/icons/styles/action_icons.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/icons/styles/media_icons.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/icons/styles/comms_icons.css">
+  <link rel="stylesheet" href="../bower_components/building-blocks/icons/styles/settings_icons.css">
+
+  <!-- Transitions -->
+  <link rel="stylesheet" href="../bower_components/building-blocks/transitions.css">
+
+  <!-- Util CSS: some extra tricks -->
+  <link rel="stylesheet" href="../bower_components/building-blocks/util.css">
+
+  <!-- Additional markup to make Building Blocks kind of cross browser -->
+  <!-- <link rel="stylesheet" href="../bower_components/building-blocks/cross_browser.css"> -->
+
+  <link rel="stylesheet" href="../bower_components/building-blocks/fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="index" data-position="current" role="region">
+    <header class="fixed">
+      <menu type="toolbar">
+        <a href="#"><span class="icon icon-settings">Settings</span></a>
+      </menu>
+      <h1>Usage</h1>
+    </header>
+    <article class="content scrollable header">
+      <ul role="tablist" class="bb-tablist" data-type="filter">
+        <li id="SIM1" role="presentation">
+          <a href="#SIM1" role="tab">SIM 1</a>
+        </li>
+        <li id="SIM2" role="presentation">
+          <a href="#SIM2" role="tab">SIM 2</a>
+        </li>
+      </ul>
+
+      <div id="total-usage-container"></div>
+    </article>
+  </section>
+
+  <section id="application-usage" data-position="right" role="region">
+  </section>
+
+  <script id="application-usage-template" type="text/x-handlebars-template">
+    <header class="fixed">
+      <a href="#{{simID}}" id="application-usage-back"><span class="icon icon-back">back</span></a>
+      <h1>{{title}}</h1>
+    </header>
+
+    <article class="content scrollable header">
+      <header>
+        <h2>Data Usage</h2>
+      </header>
+      <h2 style="text-align: center;">
+        {{usage}} MB of data used this month
+      </h2>
+      <div class="chart"></div>
+
+      <header>
+        <h2>Data Control</h2>
+      </header>
+      <div>
+        <ul>
+          <li>
+            <label class="pack-switch">
+              <input type="checkbox" checked></input>
+              <span>Use mobile data</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </script>
+
+  <script id="total-usage-template" type="text/x-handlebars-template">
+    <div class="chart"></div>
+
+    <div class="usage-bar">
+      <div class="usage-bar-label-left">Total</div>
+      <div class="usage-bar-right">
+        <div class="usage-bar-progress-container">
+          <div class="usage-bar-used">{{usage.value}} {{usage.unit}}</div>
+          <div class="usage-bar-max">{{usageLimit.value}} {{usageLimit.unit}}</div>
+          <progress class="usage-bar-progress" value="{{usage.progress}}"></progress>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <h2>App usage</h2>
+    </header>
+
+    <div id="usage-bars">
+      {{#each apps}}
+      <div class="usage-bar">
+        <div class="usage-bar-icon" style="background-image: url({{icon}});"></div>
+        <div class="usage-bar-right">
+          <div class="usage-bar-label">{{title}}</div>
+          <div class="usage-bar-progress-container">
+            <div class="usage-bar-used">{{usage}} MB</div>
+            <progress class="usage-bar-progress" value="{{usage}}" max="{{../usageLimit.value}}"></progress>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </script>
+
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/handlebars/handlebars.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
