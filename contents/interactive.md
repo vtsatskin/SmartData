@@ -9,10 +9,12 @@ template: index.jade
 
 <iframe class="prototype prototype-fxos" src="prototypes/index-multi.html#SIM1"></iframe>
 
-## Settings Animation
+## Motion
 
-<video src="video/settings.webm" autoplay loop width="340"></video>
-
-## SIM Toggle Animation
+### SIM Toggle Animation
 
 <video src="video/sim-toggle.webm" autoplay loop width="370"></video>
+
+### Settings Animation
+
+<video src="video/settings.webm" autoplay loop width="340"></video>
