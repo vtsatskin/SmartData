@@ -11,8 +11,8 @@ template: index.jade
 
 ## Settings Animation
 
-<video src="video/settings.webm" autoplay loop></video>
+<video src="video/settings.webm" autoplay loop width="340"></video>
 
 ## SIM Toggle Animation
 
-<video src="video/sim-toggle.webm" autoplay loop></video>
+<video src="video/sim-toggle.webm" autoplay loop width="370"></video>
