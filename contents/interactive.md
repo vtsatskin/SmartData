@@ -3,7 +3,7 @@ title: Interactive Prototypes - Smart Data Consumption
 template: index.jade
 ---
 
-## Example
+## Main Screen
 
 <iframe class="prototype prototype-fxos" src="prototypes/index.html"></iframe>
 
