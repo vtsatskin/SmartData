@@ -191,3 +191,19 @@ shown.
 
 In multi-SIM devices with only one SIM card inserted, the device should follow
 the single SIM versions of the specifications.
+
+### Interactive Prototype
+
+<iframe class="prototype prototype-fxos" src="prototypes/index.html"></iframe>
+
+<iframe class="prototype prototype-fxos" src="prototypes/index-multi.html#SIM1"></iframe>
+
+### Motion
+
+#### SIM Toggle Animation
+
+<video src="video/sim-toggle.webm" autoplay loop width="370"></video>
+
+#### Settings Animation
+
+<video src="video/settings.webm" autoplay loop width="340"></video>
