@@ -174,6 +174,16 @@ In the following scenario, the user has reached their defined data limit.
 
 ### Chart
 
+The data usage chart should be a cumulative graph spanning the specified cycle
+length. The x-axis should indicate each day of the cycle. The start and end
+points of the x-axis should be the start and end points of the cycle.
+
+The y-axis should show how much data has been used for the month at that day
+(cummulative). The scaling behaviour is defined in the follow figure.
+
+[![](images/specs/chart.png)](images/specs/chart.png)
+
+
 ### Data savings tips
 
 ### Disabled app behaviour
