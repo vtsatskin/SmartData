@@ -200,4 +200,7 @@ the single SIM versions of the specifications.
 
 #### Settings Animation
 
+The settings tray should slide in with a quadratic ease-out curve. When sliding
+out of view, it should follow a ease-in curve.
+
 <video src="video/settings.webm" autoplay loop width="340"></video>
