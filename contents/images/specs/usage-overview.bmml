@@ -822,5 +822,27 @@
         <text>1.4%20Single%20SIM%20Overview</text>
       </controlProperties>
     </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="1274" y="514" w="-1" h="-1" measuredW="47" measuredH="20" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>All%20apps</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Icon" x="1469" y="516" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::HRule" x="1266" y="500" w="225" h="-1" measuredW="100" measuredH="10" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Label" x="1677" y="525" w="-1" h="-1" measuredW="47" measuredH="20" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>All%20apps</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Icon" x="1872" y="527" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::HRule" x="1669" y="511" w="225" h="-1" measuredW="100" measuredH="10" zOrder="19" locked="false" isInGroup="-1"/>
   </controls>
 </mockup>

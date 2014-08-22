@@ -119,6 +119,14 @@ The cycle's usage, seen in *A*, should substitute "month" with the user's
 chosen cycle. For example, if they are on a weekly cycle it would say "X MB of
 data used this week".
 
+### All apps data control
+
+The user should be able to control mobile data use for applications which have
+not used data in the current data cycle. Without an *all apps* section, the
+apps' data controls would be inaccessible.
+
+[![](images/specs/all-apps.png)](images/specs/all-apps.png)
+
 ### SIM Plan Configuration
 
 When a user has changed their data plan with their service provider, they will
