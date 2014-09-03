@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Smart Data Consumption</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/override.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic,600italic,300italic,700italic"></head><body><div class="container"><h1>Smart Data Consumption Specifications</h1><ul id="toc"></ul><h2 id="background">Background</h2>
+<p>From our user value propositions, users need to understand and track their data
+usage, so they don’t go over budget. Users should be enabled to do more with
+less. <a href="https://mozilla.app.box.com/files/0/f/1958416320/1/f_17084860470">1</a></p>
+<h2 id="user-stories">User Stories</h2>
+<p>From the user research, we&#39;ve identified user stories which will help guide us
+to materialize these value propositions.</p>
+<ul>
+<li><p>As a cost-conscious phone user, I want to be able to track individual app
+network data usage so that I can be more informed how my data is being used.</p>
+</li>
+<li><p>As a cost-conscious phone user, I want to be able to restrict specific apps
+from using data <em>entirely</em>.</p>
+</li>
+<li><p>As a cost-conscious phone user, I want to be able to restrict specific apps
+from using data in the <em>background</em>.</p>
+</li>
+<li><p>As a cost-conscious phone user, I want to restrict the usage of background
+data on mobile networks when my battery level is low for all apps on the device.</p>
+</li>
+<li><p>As a multiple-SIM user who swaps SIMs, I want to easily update my usage plan
+configuration on my phone to reflect the SIM in use.</p>
+</li>
+<li><p>As a multiple-SIM user, I want to be able to separately track data usage
+associated with each SIM card so that I can understand my usage between SIMs.</p>
+</li>
+<li><p>As a user, when I go to use an app when I am out of data I want to be informed
+that I am out of data and be given the opportunity to purchase more so that I
+don&#39;t get a generic error message.</p>
+</li>
+<li><p>As a user, I want to be able to explicitly put my device into a mode whereby
+no mobile data can be used to allow me to control when I do not want data to be
+consumed.</p>
+</li>
+<li><p>As a user, I want to be able to override the data saving mode for a specific
+app, temporarily, so that I can use that app without all of my other apps also
+using data.</p>
+</li>
+</ul>
+<h2 id="firefox-os-2-1">Firefox OS 2.1</h2>
+<h3 id="first-time-experience">First Time Experience</h3>
+<p>In each of these scenarios, the user has never opened the usage app and has
+never configured their data plans. There is a large flow skipped, which is the
+actual configuration of a user&#39;s plan in <em>Figure 3.0</em> of each scenario. See the
+<em>SIM Plan Configuration</em> section for more details.</p>
+<h4 id="notification-tray-discovery">Notification Tray Discovery</h4>
+<p>In this scenario, the user discovers the usage app through the notification
+tray.</p>
+<p><a href="images/specs/fte-notification-tray.png"><img src="images/specs/fte-notification-tray.png" alt=""></a></p>
+<p>In a multi-SIM device, if the user does not open the other SIM configuration, it
+should be in an unconfigured state. A SIM in an unconfigured state will show a
+screen such as <em>Figure 5.1</em> in the following section.</p>
+<h4 id="home-screen-discovery">Home Screen Discovery</h4>
+<p>In this scenario the user discovers the usage app through the home screen.</p>
+<p><a href="images/specs/fte-home-entry.png"><img src="images/specs/fte-home-entry.png" alt=""></a></p>
+<p>As with the previous section, a SIM card that did not have its configuration
+opened should be left in an unconfigured state.</p>
+<h4 id="settings-app-discovery">Settings App Discovery</h4>
+<p>In this scenario, the user has come across the usage app through the navigating
+through the system settings (<em>Settings &gt; Cellular &amp; Data &gt; SIM 2</em>).</p>
+<p><a href="images/specs/fte-settings-entry.png"><img src="images/specs/fte-settings-entry.png" alt=""></a></p>
+<p>In a mulit-SIM configuration, the selected SIM should correspond to the SIM
+active in the &quot;Cellular and Data&quot; settings view.</p>
+<h3 id="usage-overview">Usage Overview</h3>
+<p><a href="images/specs/usage-overview.png"><img src="images/specs/usage-overview.png" alt=""></a></p>
+<p>In a multi-SIM configuration, the SIM chosen for data connectivity in the SIM
+Manager should be active view which is shown in <em>Figure 1.0</em>. The ordering of
+the SIMs in the tab bar should not change.</p>
+<p>The bar graphs for each application&#39;s usage should be proportional to the limit
+displayed. In the case that an app&#39;s usage is too small to be shown accurately
+as a bar graph, a small sliver should be shown as in the Map application in
+<em>Figure 1.2</em>.</p>
+<p>Usage bars which go above the limit should display a full bar graph along with
+a visual style which indicates this. As an example, <em>Figure 1.2</em> shows the bars
+displayed in red. The visual style should be sensitive to cultural meanings of
+colours.</p>
+<h3 id="application-data-control">Application Data Control</h3>
+<p><a href="images/specs/app-data-control.png"><img src="images/specs/app-data-control.png" alt=""></a></p>
+<p>The application data control view should show data in the context of the
+selected SIM from the previous screen. However, data control toggles should be
+global toggles, and carry the same state regardless of the SIM context.</p>
+<p>Pressing the back button in the top left should go back to the previous
+screen, ensuring of the previous screen is preserved.</p>
+<p>The cycle&#39;s usage, seen in <em>A</em>, should substitute &quot;month&quot; with the user&#39;s
+chosen cycle. For example, if they are on a weekly cycle it would say &quot;X MB of
+data used this week&quot;.</p>
+<h3 id="all-apps-data-control">All apps data control</h3>
+<p>The user should be able to control mobile data use for applications which have
+not used data in the current data cycle. Without an <em>all apps</em> section, the
+apps&#39; data controls would be inaccessible.</p>
+<p><a href="images/specs/all-apps.png"><img src="images/specs/all-apps.png" alt=""></a></p>
+<h3 id="sim-plan-configuration">SIM Plan Configuration</h3>
+<p>When a user has changed their data plan with their service provider, they will
+want their usage app configuration to reflect these changes. In the following
+story, the user has upgraded from a weekly 200 MB plan to a 1GB monthly plan.</p>
+<p><a href="images/specs/settings.png"><img src="images/specs/settings.png" alt=""></a></p>
+<p>The limit amount label, <em>A</em>, should update to reflect the type of plan
+specified. &quot;Limit per month&quot;, &quot;Limit per week&quot;, and &quot;Limit per day&quot; should be
+used for monthly, weekly and daily plan types respectively.</p>
+<p>The plan start date, <em>B</em>, should update based on the plan type as well. The day
+of the week should be shown for weekly plans. &quot;Day X of each month&quot; should be
+shown for monthly plans. The input field should not be shown at for daily plans.</p>
+<p>If the unlimited plan type is selected, no other configuration should be shown.
+No notifications should ever be shown. The usage notification tray should not
+be shown either.</p>
+<p>These behaviours are reflected in the following figures.</p>
+<p><a href="images/specs/settings-plan-types.png"><img src="images/specs/settings-plan-types.png" alt=""></a></p>
+<p>The device should remember SIM cards inserted and their respective plan
+configurations.</p>
+<h3 id="notification-tray-bar">Notification tray bar</h3>
+<p><a href="images/specs/notification-tray.png"><img src="images/specs/notification-tray.png" alt=""></a></p>
+<p>The usage bar in <em>Figure 4.1</em> should show the usage of the SIM selected for data
+use. In an unlimited plan configuration or when no SIM card is inserted, no tray
+bar should be shown.</p>
+<h3 id="data-usage-alerts">Data usage alerts</h3>
+<p>In the following scenario, the user has reached the threshold they&#39;ve defined
+for data use alerts.</p>
+<p><a href="images/specs/data-alert.png"><img src="images/specs/data-alert.png" alt=""></a></p>
+<p>The notification text, <em>A</em>, should be adjusted for the unit of data limit
+reached. When a MB or GB limit is reached, the text should read &quot;200 <em>X</em> of data
+used&quot;.</p>
+<p>In the following scenario, the user has reached their defined data limit.</p>
+<p><a href="images/specs/data-limit-reached.png"><img src="images/specs/data-limit-reached.png" alt=""></a></p>
+<h3 id="chart">Chart</h3>
+<p>The data usage chart should be a cumulative graph spanning the specified cycle
+length. The x-axis should indicate each day of the cycle. The start and end
+points of the x-axis should be the start and end points of the cycle.</p>
+<p>The y-axis should show how much data has been used for the month at that day
+(cummulative). The scaling behaviour is defined in the follow figure.</p>
+<p><a href="images/specs/chart.png"><img src="images/specs/chart.png" alt=""></a></p>
+<h3 id="data-savings-tips">Data savings tips</h3>
+<h3 id="disabled-app-behaviour">Disabled app behaviour</h3>
+<p>The disabled app popover should only be shown when the user launches the app. It
+should not be shown when doing ordinary task switching. If the system kills the
+app due to low memory and the user task switches, the app popover should not be
+shown.</p>
+<p><a href="images/specs/disabled-apps.png"><img src="images/specs/disabled-apps.png" alt=""></a></p>
+<h3 id="unused-secondary-sim-slot">Unused secondary SIM slot</h3>
+<p>In multi-SIM devices with only one SIM card inserted, the device should follow
+the single SIM versions of the specifications.</p>
+<h3 id="interactive-prototype">Interactive Prototype</h3>
+<iframe class="prototype prototype-fxos" src="prototypes/index.html"></iframe>
+
+<iframe class="prototype prototype-fxos" src="prototypes/index-multi.html#SIM1"></iframe>
+
+<h3 id="motion">Motion</h3>
+<h4 id="settings-animation">Settings Animation</h4>
+<p>The settings tray should slide in with a quadratic ease-out curve. When sliding
+out of view, it should follow a ease-in curve.</p>
+<video src="video/settings.webm" autoplay loop width="340"></video>
+<div class="footer"><hr><p>Mozilla 2014.</p></div></div></body><script src="https://code.jquery.com/jquery-1.11.0.min.js"></script><script src="js/jquery.tableofcontents.min.js"></script><script src="js/ddscrollspy.js"></script><script src="js/app.js"></script></html>

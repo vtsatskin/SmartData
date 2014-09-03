@@ -1,0 +1,191 @@
+body {
+  /* Override from util.css to allow scrolling from iframes */
+  /*overflow: visible;*/
+}
+
+.chart {
+  height: 200px;
+  background: #EEE;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 2px dashed lightgray;
+}
+
+.bb-tablist {
+  margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+  width: calc(100% + 3rem);
+}
+
+.icon-settings {
+  background-image: url(settings_icon@2x.png) !important;
+}
+
+/*
+ * Usage Bar
+ */
+
+.usage-bar {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.usage-bar:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.usage-bar-icon,
+.usage-bar-label-left {
+  width: 42px;
+  float: left;
+  margin-right: 10px;
+}
+
+.usage-bar-label-left {
+  height: 20px;
+
+  /* Align with baseline of min/max labels */
+  padding-top: 3px;
+  box-sizing: content-box;
+}
+
+.usage-bar-icon {
+  height: 42px;
+  background-size: cover;
+}
+
+.usage-bar-right {
+  float: left;
+  width: calc(100% - 52px);
+}
+
+.usage-bar-label {
+  margin-top: 6px;
+}
+
+progress.usage-bar-progress {
+  height: 20px;
+  background: #EEE;
+}
+progress.usage-bar-progress::-moz-progress-bar {
+  height: 20px;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.usage-bar-progress-container {
+  position: relative;
+}
+
+.usage-bar-used,
+.usage-bar-max {
+  position: absolute;
+  color: #333;
+  top: 0.3rem;
+}
+
+.usage-bar-used {
+  left: 0.5rem;
+}
+.usage-bar-max {
+  right: 0.5rem;
+}
+
+label.pack-switch {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*
+ * Application Icons
+ */
+
+.browser-icon {
+  background-image: url(browser_84.png);
+}
+
+.music-icon {
+  background-image: url(music_84.png);
+}
+
+.email-icon {
+  background-image: url(email_84.png);
+}
+
+/*
+ * View transitioning
+ */
+
+[data-position="right"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  z-index: 15;
+  z-index: 100; /* -> drawer */
+}
+section[role="region"][data-position="right"] {
+  position: absolute;
+}
+[data-position="right"].current {
+  animation: rightToCurrent 0.4s forwards;
+  -webkit-animation: rightToCurrent 0.4s forwards;
+}
+[data-position="right"].right {
+  animation: currentToRight 0.4s forwards;
+  -webkit-animation: currentToRight 0.4s forwards;
+}
+[data-position="current"].left {
+  animation: currentToLeft 0.4s forwards;
+  -webkit-animation: currentToLeft 0.4s forwards;
+}
+[data-position="current"].current {
+  animation: leftToCurrent 0.4s forwards;
+  -webkit-animation: leftToCurrent 0.4s forwards;
+}
+[data-position="back"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0;
+  /* z-index: 100; -> drawer */
+}
+[data-position="back"].fade-in {
+  z-index: 120;
+  animation: fadeIn 0.2s forwards;
+  -webkit-animation: fadeIn 0.2s forwards;
+}
+[data-position="back"].fade-out {
+  animation: fadeOut 0.2s forwards;
+  -webkit-animation: fadeOut 0.2s forwards;
+}
+
+[data-position="edit-mode"] {
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  right: 0;
+  bottom: -7rem;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+[data-position="edit-mode"].edit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 120;
+  opacity: 1;
+}

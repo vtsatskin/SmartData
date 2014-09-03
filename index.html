@@ -1,0 +1,541 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Smart Data Consumption</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/override.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic,600italic,300italic,700italic"></head><body><div class="container"><h1>Smart Data Consumption</h1><ul id="toc"></ul><h2 id="overview">Overview</h2>
+<p>A Firefox OS project to bring smart data consumption to users in emerging
+markets so that they can do more with less data.</p>
+<p>This project aims to help keep users informed and in control of the data
+consumed by their device and the applications on it.</p>
+<h2 id="user-stories">User Stories</h2>
+<h3 id="from-frog-mozilla-concepts">From Frog Mozilla Concepts</h3>
+<p>&quot;In emerging markets, about 90% of mobile subscribers are using prepaid plans
+for which they need to manage their credits and spending. Brazilian carriers
+have various promotions and deals, and users monitor these to make choices on
+what SIMs to use.&quot;</p>
+<p><em>Source: “Emerging Markets Opportunities” Mozilla Market Insights July 2011</em></p>
+<p>&quot;As Mozilla’s research showed, emerging market users are juggling multiple
+phones, SIMs, and plans to maximize coverage and to pay lower in-network rates
+as they communicate with their friends and family. Managing this complexity is a
+real user pain point, with users cobbling together their own solutions to cope.&quot;</p>
+<p>&quot;Today emerging market users employ many workarounds to overcome limited
+internet access and to minimize paying for content, from sideloading content
+purchased at local markets to sharing content through Bluetooth or cords.&quot;</p>
+<p><em>Source: Mozilla User Experience Research 2012</em></p>
+<h4 id="questions">Questions</h4>
+<ul>
+<li>For each launch market, what is the distribution of people who have this
+problem having to &quot;juggle phones&quot;, &quot;juggle SIMs&quot;, and normal phone usage?</li>
+<li>Is limited internet access still an issue in 2014?<ul>
+<li>Is there a trend we can look at to see how quickly it is becoming a non-issue?</li>
+</ul>
+</li>
+<li>Are there any other &quot;workarounds&quot; people use to minimize for paying for content?</li>
+<li>What would be an acceptable price to pay for content?</li>
+</ul>
+<h3 id="existing-user-scenarios">Existing User Scenarios</h3>
+<h4 id="sofia">Sofia</h4>
+<p><em>Gathered from <a href="https://mozilla.box.com/s/ak3iva799ppavdxgcl63">FX OS Offline Concepts, January 2014</a></em></p>
+<h5 id="persona">Persona</h5>
+<p>Sofia is a second year art student, trying to save money by living at home.
+Money is tight, but she’s doing the most with what she has. She pays for her own
+plan, but her brother gave her the phone. She likes this phone, it helps her
+avoid all of the extra fees and it makes her feel good about how much she has
+learned.</p>
+<ul>
+<li>I need to easily understand the current state</li>
+<li>I need an option to &quot;set it and forget it&quot; regarding my usage</li>
+<li>I work the system to save money</li>
+</ul>
+<h5 id="user-scenario">User Scenario</h5>
+<p>See <a href="resources/sofia.user.story.pdf">sofia.user.story.pdf</a>.</p>
+<h3 id="existing-user-stories-jan-2013-">Existing User Stories (Jan 2013)</h3>
+<p><em>Gathered from <a href="https://mozilla.box.com/s/ojjqc2tgsia6sdxqmvt9">offline_concepts_jan2013.pdf</a></em></p>
+<p>Note: these do not solely focus on data consumption but also includes SMS and
+Voice usage.</p>
+<ul>
+<li><p>As a cost conscious phone user, I want to know the amount of SMS/MMS messages
+I’ve sent/received in a billing period, so that I can avoid extra charges.</p>
+<ul>
+<li>Assumption: The networks our users use do not offer unlimited data plans</li>
+<li>Assumption: If unlimited plans exist, our &quot;cost consious&quot; users cannot
+afford them.</li>
+</ul>
+</li>
+<li><p>As a cost-conscious phone user, I want to know the amount of local and long
+distance minutes I’ve used in a defined billing period, so that I can avoid
+extra charges.</p>
+<ul>
+<li>Assumptions: similar to previous.</li>
+</ul>
+</li>
+<li><p>As a multiple-SIM user, I want to be able to separately track data associated
+with each SIM card (including voice, messaging, and data), so that I can manage
+services between SIMs.</p>
+<ul>
+<li>Assumption: multiple SIM card users are a sizeable enough demographic to focus on</li>
+</ul>
+</li>
+<li><p>As a cost-conscious phone user, I want to be able to track app network data
+usage and individually restrict the usage of background data on mobile networks
+for all apps on the device, so that I can avoid incurring unexpected data
+charges. (Background data should still work over Wi-Fi.)</p>
+<ul>
+<li>Assumption: users have a mental model of &quot;background apps&quot;</li>
+<li>Assumption: apps use significant background data usage</li>
+</ul>
+</li>
+<li><p>As a cost-conscious user, I want to update my apps on wifi so that I can save
+data usage.</p>
+</li>
+<li><p>As a cost-conscious user, I want to update my apps using a wired connection to
+a computer so that I can save data usage while not requiring consistent wifi
+access.</p>
+<ul>
+<li>Assumption: a sizeable amount of users don&#39;t have a consistent wifi access</li>
+</ul>
+</li>
+<li><p>As a cost-conscious user, I want to update my apps over bluetooth so that I
+can share app updates with friends without using my data or having a wifi
+connection.</p>
+<ul>
+<li>Assumption: users want to share apps with friends</li>
+<li>Assumption: users are so conscious of data concerns that they would not download an app over wifi</li>
+<li>Assumption: users want apps</li>
+<li>What if apps can be shared over WiFi direct?</li>
+</ul>
+</li>
+</ul>
+<h4 id="questions-to-validate-assumptions">Questions to validate assumptions</h4>
+<p><strong>Assumption:</strong> The networks our users use do not offer unlimited data plans.</p>
+<p><strong>Assumption:</strong> If unlimited plans exist, our &quot;cost consious&quot; users cannot afford them.</p>
+<ul>
+<li>Are you a cost conscious user?</li>
+<li>Are there unlimited data/SMS/MMS plans?<ul>
+<li>Do you have a plan such as this?</li>
+<li>As a cost conscious user, would you buy this type of plan?</li>
+</ul>
+</li>
+</ul>
+<p><strong>Assumption:</strong> Multiple SIM card users are a sizeable enough demographic to focus on</p>
+<p>Here we will need to look to market data.</p>
+<ul>
+<li>In each launch market, how what percentage of users use multiple SIM cards?</li>
+<li>Why do they use multiple SIM cards?</li>
+</ul>
+<p><strong>Assumption:</strong> users have a mental model of &quot;background apps&quot; and they use data</p>
+<ul>
+<li>What is a &quot;background app&quot;?</li>
+<li>When you switch apps, will your previous app be able to use data?</li>
+</ul>
+<p><strong>Assumption:</strong> apps use significant background data usage</p>
+<p>Here we will have to look at some statistics of our platform and other platform
+apps and how much data background apps use. Do we have any data on this?</p>
+<p><strong>Assumption:</strong> a sizeable amount of users don&#39;t have a consistent wifi access</p>
+<ul>
+<li>Where do you have a WiFi connection on a normal day?</li>
+<li>Over the course of a day, how much WiFi access do you have?</li>
+</ul>
+<p><strong>Assumption:</strong> users want to share apps with friends</p>
+<ul>
+<li>How do you find out about apps?</li>
+<li>Do you share apps with your friends?<ul>
+<li>Are there any challenges with sharing apps?</li>
+<li>How often?</li>
+</ul>
+</li>
+</ul>
+<p><strong>Assumption:</strong> users are so conscious of data concerns that they would not download an app over wifi</p>
+<ul>
+<li>Over what kind of a connection do you download apps?</li>
+<li>Are there any situations where you would not download an app over WiFi?</li>
+</ul>
+<h3 id="revised-user-stories-2014-">Revised User Stories (2014)</h3>
+<p>The following are user stories for the 2014 Smart Data Consumption refresh.</p>
+<h4 id="firefox-os-2-1">Firefox OS 2.1</h4>
+<p>These are determined by what bring us up to par with other solutions. These are
+intended to be user stories which should be &quot;most bang for the buck&quot; (i.e. not a
+lot of engineering time should need to be invested).</p>
+<p>Higher listed items are to be considered higher priority.</p>
+<ul>
+<li><p>As a cost-conscious phone user, I want to be able to track individual app
+network data usage so that I can be more informed how my data is being used.</p>
+</li>
+<li><p>As a cost-conscious phone user, I want to be able to restrict specific apps
+from using data <em>entirely</em>.</p>
+</li>
+<li><p>As a cost-conscious phone user, I want to be able to restrict specific apps
+from using data in the <em>background</em>.</p>
+</li>
+<li><p>As a cost-conscious phone user, I want to restrict the usage of background
+data on mobile networks when my battery level is low for all apps on the device.</p>
+</li>
+<li><p>As a multiple-SIM user who swaps SIMs, I want to easily update my usage plan
+configuration on my phone to reflect the SIM in use.</p>
+</li>
+<li><p>As a multiple-SIM user, I want to be able to separately track data usage
+associated with each SIM card so that I can understand my usage between SIMs.</p>
+</li>
+<li><p>As a user, when I go to use an app when I am out of data I want to be informed
+that I am out of data and be given the opportunity to purchase more so that I
+don&#39;t get a generic error message.</p>
+</li>
+<li><p>As a user, I want to be able to explicitly put my device into a mode whereby
+no mobile data can be used to allow me to control when I do not want data to be
+consumed.</p>
+</li>
+<li><p>As a user, I want to be able to override the data saving mode for a specific
+app, temporarily, so that I can use that app without all of my other apps also
+using data.</p>
+</li>
+</ul>
+<h4 id="future-stories">Future Stories</h4>
+<p>These are user stories which will really differentiate ourselves from the
+competition and really hit home hard on our value propositions.</p>
+<h5 id="data-usage">Data Usage</h5>
+<ul>
+<li><p>As a cost-conscious user, I want to update my apps on wifi so that I can save
+data usage.</p>
+</li>
+<li><p>As a cost conscious user, I want an easy way of informing my phone how many
+minutes, texts and data are in my plan/billing cycle.</p>
+<ul>
+<li>Possible high level solution:
+<a href="index.html#integration-with-operator-usage-plans">Integration with operator usage plans</a></li>
+</ul>
+</li>
+<li><p>As a cost conscious user, I want to be able to share my apps with friends out
+of band to save data.</p>
+</li>
+<li><p>As a cost-conscious user, I want to update my apps using a wired connection to
+a computer so that I can save data usage while not requiring consistent wifi
+access. <strong>Too solution specific?</strong></p>
+</li>
+<li><p>As a pre-paid user, I want to be able to buy more minutes, data and/or text
+messages for my account.</p>
+</li>
+</ul>
+<h5 id="text-mms-voice-usage">Text, MMS, Voice usage</h5>
+<ul>
+<li><p>As a cost conscious phone user, I want to know the amount of SMS/MMS messages
+I’ve sent/received in a billing period, so that I can avoid extra charges.</p>
+</li>
+<li><p>As a cost-conscious phone user, I want to know the amount of local and long
+distance minutes I’ve used in a defined billing period, so that I can avoid
+extra charges.</p>
+</li>
+</ul>
+<h2 id="existing-solutions">Existing Solutions</h2>
+<h3 id="android-data-usage">Android Data Usage</h3>
+<p>Android has a built in data usage tracker which can be launched from the
+settings. The tool allows the user to see a graph of their data usage. The user
+can select a subsection of their cycle to analyze to gain a better understanding
+of where usage spikes occurred.</p>
+<p>A list of applications is displayed with their usages for the selected
+subsection. They are ordered by usage in descending order. Applications can be
+inspected in greater detail showing their foreground and background data usage.</p>
+<p><img src="images/existing-resources/android-data-usage/settings.png" alt=""></p>
+<p>Data usage location, <em>Android Settings</em></p>
+<p><img src="images/existing-resources/android-data-usage/overview.png" alt=""></p>
+<p>Overview of cycle with subsection, <em>Android Data Usage</em></p>
+<p><img src="images/existing-resources/android-data-usage/cycle-selection.png" alt=""></p>
+<p>Cycle selection, <em>Android Data Usage</em></p>
+<p><img src="images/existing-resources/android-data-usage/app-details.png" alt=""></p>
+<p>App details, <em>Android Data Usage</em></p>
+<h3 id="opera-max">Opera Max</h3>
+<p>Opera Max is an android application to help monitor, record and save data on
+a mobile device by using Opera&#39;s compression technologies. It works by sending
+all mobile data (excluding WiFi) through their VPN. However, they make a point
+not to interfere with secure connections. <a href="http://www.onavo.com/apps/android_extend">1</a></p>
+<p>A big feature of theirs is to claim to be able to compress video streamed to a
+device. They claim they can &quot;make a 10 MB video become 3 MB&quot;. Other claims
+include making &quot;your data plan last up to 50% longer&quot;. <a href="http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-wi-fi-sense-to-get-connected">2</a></p>
+<ul>
+<li><a href="http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-wi-fi-sense-to-get-connected">Product page</a></li>
+<li><a href="https://www.youtube.com/watch?v=U5UYfIAH_AM">An intro video</a></li>
+</ul>
+<h4 id="data-usage-timeline">Data Usage Timeline</h4>
+<p>Opera Max displays a chronological timeline of the data used by all your
+applications. This can give users insight into when and how much data their
+applications are using. In addition, savings are displayed at the top of the app
+and in the usage bar of each app in green.</p>
+<p><img src="images/existing-resources/opera-max/some.data.png" alt=""></p>
+<p>All application usage timeline, <em>Opera Max</em></p>
+<p>In addition, a user can see a detailed view of a specific application&#39;s data
+usage over time as well. The user also has an ability to block the application
+from using data.</p>
+<p><img src="images/existing-resources/opera-max/gplus.usage.png" alt=""></p>
+<p>Application specific timeline, <em>Opera Max</em></p>
+<h4 id="on-boarding">On-boarding</h4>
+<p>They have, in my opinion, a clear and understandable onboarding experience.
+There are four screens that are shown:</p>
+<p><img src="images/existing-resources/opera-max/intro-1.png" alt=""></p>
+<p><img src="images/existing-resources/opera-max/intro-2.png" alt=""></p>
+<p><img src="images/existing-resources/opera-max/intro-3.png" alt=""></p>
+<p><img src="images/existing-resources/opera-max/intro-4.png" alt=""></p>
+<p><em>Screenshots are from Opera Max&#39;s Android App</em></p>
+<h3 id="opera-web-pass">Opera Web Pass</h3>
+<p><a href="http://www.operasoftware.com/products/web-pass">Product Page</a></p>
+<p>Allows operators to package internet services to be based on time and or content
+instead of per MB. This can make decisions for users easier because it relates
+to terms they understand instead of MBs.</p>
+<p>Users can buy packages to use the internet for a specified amount of time (e.g 3
+minutes, an hour, a day, etc). They can also buy packages that enable a specific
+application to work (e.g. Facebook, Twitter, etc). <a href="http://www.onavo.com/apps/android_extend">1</a></p>
+<p>Opera believes Web Pass makes mobile data offerings &quot;understandable and
+affordable&quot; to their users. <a href="http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-wi-fi-sense-to-get-connected">2</a></p>
+<p>This solution requires the Opera web browser.</p>
+<blockquote>
+<p>The system doesn’t require heavy integration efforts on the operator’s side,
+as it supports third-party billing, header forwarding and Opera Mini zero
+rating, so the operator can quickly deploy the solution for their customers
+using low-end devices and feature phones. It also uses Opera’s data compression
+technologies, to reduce data costs even further. <a href="http://techcrunch.com/2012/11/08/opera-web-pass-gives-mobile-subscribers-access-to-pay-as-you-go-internet-access-no-data-plan-required/">3</a></p>
+</blockquote>
+<h4 id="sponsored-web-pass">Sponsored Web Pass</h4>
+<blockquote>
+<p>Sponsored Web Pass enables operators to easily team up with advertisers to
+sponsor the cost of customers&#39; mobile internet access, providing users with free
+mobile data. <a href="http://www.onavo.com/apps/android_extend">1</a></p>
+</blockquote>
+<p><img src="images/existing-resources/opera-web-pass/sponsored-web-pass.jpg" alt="">
+The process for a user to receive free internet through a sponsored web pass,
+<em>Opera&#39;s Web Pass Product Page</em></p>
+<h3 id="opera-for-android">Opera for Android</h3>
+<h4 id="off-road-mode">Off-road mode</h4>
+<p>Similar to <a href="opera-max.md">Opera Max</a>, the mobile version of opera supports a
+mode called &quot;off-road mode&quot;. From an external perspective, it appears to use
+Opera&#39;s existing technologies developed for Max.</p>
+<p>From Opera&#39;s FAQ:</p>
+<blockquote>
+<p>Off-Road mode uses the cloud-based compression technology from the Opera Mini
+browser. This has some advantages and some drawbacks.</p>
+<ul>
+<li>On slow and unreliable networks, Off-Road mode loads pages significantly
+faster than the normal browsing mode.</li>
+<li>Data usage is significantly reduced and can be adjusted by changing the image quality setting.</li>
+<li>On slower devices, page rendering and scrolling can be faster.</li>
+<li>Some dynamic website features might not work flawlessly in Off-Road mode due
+to its architecture.</li>
+</ul>
+</blockquote>
+<h5 id="examples">Examples</h5>
+<p><img src="images/existing-resources/opera-for-android/off-road-disabled.png" alt=""></p>
+<p><em>Off-road disabled (normal browsing) for <a href="http://valentin.tsatsk.in/">valentin.tsatsk.in</a></em></p>
+<p><img src="images/existing-resources/opera-for-android/off-road-enabled.png" alt=""></p>
+<p><em>Off-road enabled for <a href="http://valentin.tsatsk.in/">valentin.tsatsk.in</a></em></p>
+<h5 id="other">Other</h5>
+<p><img src="images/existing-resources/opera-for-android/off-road-savings.png" alt=""></p>
+<p><em>Off-road savings display</em></p>
+<p><img src="images/existing-resources/opera-for-android/off-road-settings.png" alt=""></p>
+<p><em>Off-road image compression settings</em></p>
+<h3 id="nokia-asha">Nokia Asha</h3>
+<h4 id="xpress-browser">Xpress Browser</h4>
+<p><a href="http://www.nokia.com/global/apps/app/nokia-xpress/">Product Page</a></p>
+<blockquote>
+<p>Nokia Xpress Browser serves up your web pages as much as three times faster
+than browsers on other phones – so you&#39;re online quicker than ever.</p>
+</blockquote>
+<p>From my understanding, it seems to use techniques similar to what Opera and
+others are making. Not much information could be found otherwise.</p>
+<h3 id="blackberry-datasmart">BlackBerry DataSmart</h3>
+<p>DataSmart is a compression technology which proxies requests made by BlackBerry
+devices through a server in order to save on data costs. It is similar to
+Opera&#39;s compression technologies except for the lack of video compression.</p>
+<blockquote>
+<p>BlackBerry smartphones with DataSmart technology enable up to 2x more web
+browsing, 4x more email and 2x more social networking than other leading
+smartphones within your fixed data plan. According to Peter Rysavy, benefits of
+BlackBerry smartphones with DataSmart technology could include lower monthly
+service plans, faster application operation and increased battery life. <a href="http://www.onavo.com/apps/android_extend">1</a>, <a href="http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-wi-fi-sense-to-get-connected">2</a></p>
+</blockquote>
+<h3 id="windows-phone">Windows Phone</h3>
+<h4 id="data-sense">Data Sense</h4>
+<p>Can hook into operators to understand plan info so that manual configuration is
+not required. Has an option to restrict background data usage when near limits
+or always. <a href="http://www.onavo.com/apps/android_extend">1</a></p>
+<p>Supports compression of pictures, blocking advertisements, and selective loading
+of portions of websites to save data. <a href="http://www.onavo.com/apps/android_extend">1</a></p>
+<p>A good rundown with pictures can be found in the Windows Phone Central article,
+<a href="http://www.wpcentral.com/data-sense-windows-phone-81">&quot;All you need to know about Data Sense on Windows Phone 8.1&quot;</a>.</p>
+<h4 id="wifi-sense">WiFi Sense</h4>
+<blockquote>
+<p>Wi-Fi Sense automatically connects you to nearby Wi-Fi networks, helping you
+save your cellular data for when you really need it and giving you more Internet
+connectivity options. Wi-Fi Sense can do a lot of things for you to get you
+connected to the Internet using Wi-Fi, so you don&#39;t have to do them on your own.
+<a href="http://www.windowsphone.com/en-us/how-to/wp8/connectivity/use-wi-fi-sense-to-get-connected">2</a></p>
+</blockquote>
+<p>There is also an <a href="http://www.windowsphone.com/en-us/how-to/wp8/connectivity/wi-fi-sense-faq">FAQ</a> available. The aforementioned Windows Phone Central
+article also describes WiFi sense.</p>
+<h3 id="onavo">Onavo</h3>
+<h3 id="onavo-count-for-android">Onavo Count for Android</h3>
+<p><a href="https://play.google.com/store/apps/details?id=com.onavo.android.onavoid">Google Play Store page</a></p>
+<p>A beautiful data monitor.</p>
+<p>Makes use of interesting data metrics on application specific view:</p>
+<ul>
+<li>Hours used in current cycle</li>
+<li>Average minutes of usage per day</li>
+<li>Average MB of usage per minute</li>
+<li>Differentiating foreground and background</li>
+</ul>
+<p><img src="images/existing-resources/onavo-for-android/overview.png" alt=""></p>
+<p><em>Landing page overview</em></p>
+<p><img src="images/existing-resources/onavo-for-android/daily-details.png" alt=""></p>
+<p><em>Detail view (daily)</em></p>
+<p><img src="images/existing-resources/onavo-for-android/weekly-details.png" alt=""></p>
+<p><em>Detail view (weekly)</em></p>
+<p><img src="images/existing-resources/onavo-for-android/app-details.png" alt=""></p>
+<p><em>Application specific details (Facebook Messenger)</em></p>
+<h3 id="onavo-extend">Onavo Extend</h3>
+<p><a href="https://play.google.com/store/apps/details?id=com.onavo.android.onavoics">Google Play Store page</a></p>
+<p>Saves data by routing traffic to Onavo servers and using compression technology.
+Caches images locally to prevent loading the same image twice. <a href="http://www.onavo.com/apps/android_extend">1</a> This app is
+very similar to Opera Max in it&#39;s value proposition. However, unlike Opera Max,
+Onavo Extend does not attempt to report usage, only savings.</p>
+<p>Has an interesting way of quantifying data saved by relating it to how many more
+emails and videos the user can send on the current cycle.</p>
+<p><img src="images/existing-resources/onavo-extend-android/report.png" alt=""></p>
+<p><em>Savings display with breakdown per app</em></p>
+<p><img src="images/existing-resources/onavo-extend-android/savings-quantified.png" alt=""></p>
+<p><em>Quantifying data saved with number of extra emails and videos user can consume</em></p>
+<h2 id="concepts">Concepts</h2>
+<p>These are just concepts, not a cohesive package of well integrated features.
+Implementing every single of these is probably crazy and will result in a
+frankenstein of a product.</p>
+<h3 id="data-modes">Data Modes</h3>
+<p>This idea originates from
+<a href="https://mozilla.box.com/s/ak3iva799ppavdxgcl63">FX OS Offline Concepts, January 2014</a> (p25-29).</p>
+<blockquote>
+<p>Modes are preset or custom network configurations that allow users to easily
+take control of their data usage on a system level. Modes also offer a series of
+supports, such as contextual tips or notifications.</p>
+</blockquote>
+<p><a href="images/concepts/modes.png"><img src="images/concepts/modes.png" alt=""></a></p>
+<h3 id="top-up">Top-up</h3>
+<p>This idea originates from
+<a href="https://mozilla.box.com/s/ak3iva799ppavdxgcl63">FX OS Offline Concepts, January 2014</a> (p28-30).</p>
+<blockquote>
+<p>Top Up is a system that allows users to establish some rules around when and
+where their device updates, or Tops Up, their data. Top Up rules include setting
+time, location and application priority. Top Up uses WiFi as the default, but
+will adhere to the configuration as dictated by Modes.</p>
+</blockquote>
+<p><a href="images/concepts/topup.png"><img src="images/concepts/topup.png" alt=""></a></p>
+<h3 id="application-settings">Application Settings</h3>
+<p>This idea originates from
+<a href="https://mozilla.box.com/s/ak3iva799ppavdxgcl63">FX OS Offline Concepts, January 2014</a> (p31-33).</p>
+<p><a href="images/concepts/app-control.png"><img src="images/concepts/app-control.png" alt=""></a></p>
+<h3 id="understandable-mental-model-of-data">Understandable mental model of data</h3>
+<p>Apple made communicating to users how many songs their iPods could hold not by
+talking about their devices in terms of the bytes they could hold, instead
+they talked about the number of songs they could hold.</p>
+<p>Referring to data consumption in terms of pages, apps, and other usage metrics
+is probably more understandable than bytes. Even if it&#39;s just an estimate, it&#39;s
+probably more useful, especially for people who have never had to deal with
+computer metrics before.</p>
+<p>The following metrics could be based on the user&#39;s historical average size of
+content for that type:</p>
+<ul>
+<li>Pages loaded</li>
+<li>Tweets</li>
+<li>Minutes of video<ul>
+<li>Could be based off of current bitrate of active video as well.</li>
+</ul>
+</li>
+<li>Site specific pages (e.g. Wikipedia article, Facebook profile)</li>
+<li>Minutes of songs</li>
+<li>Number of songs</li>
+</ul>
+<h3 id="positive-reinforcement-for-saving-data">Positive reinforcement for saving data</h3>
+<p>Users could be rewarded for staying within their daily or monthly goals for data
+usage. It is hypothesized that positive reinforcement of staying under the limit
+may form habits for users to stay under those limits. Network operators&#39;
+opinions of this type of a feature will need to be considered.</p>
+<h3 id="forecasting-predicted-data-usage">Forecasting predicted data usage</h3>
+<p>Analyze the user&#39;s historical usage trends for the cycle and attempt to build a
+prediction model of how much data the user will use in the month. We can display
+the predicted data usage for the month to the user. In addition, a warning can
+be given to warn the user that they are consuming too quickly.</p>
+<p>This idea was found in <a href="https://play.google.com/store/apps/details?id=com.mobidia.android.mdm">My Data Manager</a>.</p>
+<h3 id="analyzing-data-usage">Analyzing Data Usage</h3>
+<p>If we are tracking traffic usage of each app, we should have a wealth of
+historical information available. With this data, Firefox OS could try to give
+smart advice for helping users use their data more efficiently.</p>
+<p>Some ideas:</p>
+<ul>
+<li>Warn users if their current rate of usage will cause them to consume more
+data than they have for their cycle.</li>
+<li>&quot;You could save 200 MB a month if you disabled background data for <em>data hog</em>&quot;</li>
+<li>&quot;It looks like you&#39;re not using <em>background data hog</em> much yet it uses a
+lot of data in the background. Would you like to disable background data for
+this application?&quot;</li>
+</ul>
+<h3 id="integration-with-operator-usage-plans">Integration with operator usage plans</h3>
+<p>Carriers know how many minutes, texts, and data the user has left. This
+information could be synced with Firefox OS so that the user does NOT need to
+configure their phone. It should &quot;just work&quot;.</p>
+<p>Anecdotes have been shared where this is not as easy as one might expect. What
+are the complications with doing a carrier integration? Why can&#39;t this thing
+be standardized once and for all and all mobile OSs understand how much usage
+is available (instead of another proprietary solution)?</p>
+<h3 id="mobile-first">Mobile first</h3>
+<p>From <a href="https://mozilla.box.com/s/ak3iva799ppavdxgcl63">FX OS Offline Concepts, January 2014</a>:</p>
+<blockquote>
+<p>The research made it clear, we need to treat offline as the default. We need
+to shift our focus from delivering a product that depends on connectivity, to
+one that is augmented by connectivity. This means we don’t highlight the broken
+parts of the experience, but rather focus on the whole of what does work.</p>
+</blockquote>
+<h2 id="mockups">Mockups</h2>
+<h3 id="simple-usage-integration">Simple Usage Integration</h3>
+<p>This is the minimal amount of complexity and change required to bring our 2.1
+user stories into existence.</p>
+<p>It is hypothesized that users who are searching for ways to control their
+settings may expect to find those controls in the settings app. So a new entry
+point into usage is added to the <em>Data and Cellular</em> section of settings (see
+<em>0.1</em>).</p>
+<p>Users who have multiple SIM cards may want to know which SIM card the data is
+being displayed for. A tab bar is added at the top of figure <em>1.0</em> to facilitate
+this. The user may select which SIM card to display from this bar as well.</p>
+<p>As seen in figure <em>2b</em>, a histogram of monthly usage is included along with a
+report of what percentage of the data is used in the background. This is
+intended to help support the user in making an informed decision of how to
+control the application&#39;s data usage.</p>
+<p><a href="images/mockups/simple-integration.png"><img src="images/mockups/simple-integration.png" alt=""></a></p>
+<h3 id="daily-budget-timeline">Daily budget timeline</h3>
+<p>The concept of a daily budget is introduced to help users manage their daily
+consumption. Think weight watchers for your data. The month&#39;s data cap is split
+between 30 days and shown in <em>2. Today&#39;s Usage</em>. This might confuse users
+into thinking their operator imposes daily data caps.</p>
+<p>Data saving tips are introduced to help users manage their data. See <em>Data
+Saving Tips</em>. Operators may particularly like the ability for users to buy more
+data or watch advertisements in exchange for more data. However, a good balance
+must the struck in order to put the users first.</p>
+<p>In screens <em>1</em> and <em>2</em> the bar graphs are intended to line up with the indicated
+budgets to help users visualize graphically how much data their applications are
+using in relation to their budget. This is to help users understand the
+differences between the different data usage measurements (i.e. kBs, MBs, GBs).
+The assumption here is that our cost conscious users may not be educated in what
+these measurements really mean.</p>
+<p><a href="images/mockups/timeline.png"><img src="images/mockups/timeline.png" alt=""></a></p>
+<h3 id="chart-slider">Chart Slider</h3>
+<p>The cycle&#39;s entire usage is displayed as a cumulative usage graph. The user may
+make a sub-section selection with the sliders to have more fine grained insight
+into the usage for a specific time period. This allows one to investigate
+anomalies in data usage such as spikes or extreme usage.</p>
+<p>Below the graph, the list of applications and their respective usages for the
+selected range are shown. These are ordered in descending order of their data
+usage.</p>
+<p>If available, data saving tips and promotions will be shown at the top as a
+carrousel.</p>
+<p><a href="images/mockups/chart-slider.png"><img src="images/mockups/chart-slider.png" alt=""></a></p>
+<h2 id="related-resources">Related Resources</h2>
+<p><em>*Box access is required</em></p>
+<p><strong><a href="https://mozilla.app.box.com/files/0/f/1784123672">Settings Drawer Spec</a>*</strong></p>
+<p><em>The Firefox OS 2.0 Settings Drawer Spec. Will be useful to follow this design
+language when mockups are made for this project.</em></p>
+<p><strong><a href="https://mozilla.box.com/s/ll853vigkmqkz5eife2g">The mobile consumer, Neilsen, February 2013</a>*</strong></p>
+<p>An overview of mobile consumption patterns and statistics for various countries.</p>
+<p><strong><a href="https://mozilla.box.com/s/q3mh4svgs5lg63cf68us">Offline Patterns 0.3</a></strong></p>
+<p>A spec to help handle situations when a user does not have any data connection
+and an app requests/requires it.</p>
+<p><strong><a href="https://mozilla.box.com/s/ojjqc2tgsia6sdxqmvt9">FX OS Offline Concepts, January 2013</a>*</strong></p>
+<p><strong><a href="https://mozilla.box.com/s/ak3iva799ppavdxgcl63">FX OS Offline Concepts, January 2014</a>*</strong></p>
+<div class="footer"><hr><p>Mozilla 2014.</p></div></div></body><script src="https://code.jquery.com/jquery-1.11.0.min.js"></script><script src="js/jquery.tableofcontents.min.js"></script><script src="js/ddscrollspy.js"></script><script src="js/app.js"></script></html>
